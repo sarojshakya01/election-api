@@ -586,7 +586,7 @@
         ]
       },
       {
-        "id": "khootang",
+        "id": "khotang",
         "regions": [
           {
             "id": 1.1,
@@ -2565,7 +2565,7 @@
         ]
       },
       {
-        "id": "myangdi",
+        "id": "myagdi",
         "regions": [
           {
             "id": 1.1,
@@ -3251,7 +3251,7 @@
         ]
       },
       {
-        "id": "nawalpasariwest",
+        "id": "nawalparasiwest",
         "regions": [
           {
             "id": 1.1,
@@ -3651,7 +3651,7 @@
     "id": 7,
     "districts": [
       {
-        "id": "bajhura",
+        "id": "bajura",
         "regions": [
           {
             "id": 1.1,
