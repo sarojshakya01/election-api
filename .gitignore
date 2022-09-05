@@ -5,3 +5,4 @@ lib
 pyvenv.cfg
 include
 .vscode
+docker-compose.yml
