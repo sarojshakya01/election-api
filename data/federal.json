@@ -1,0 +1,2237 @@
+[
+  {
+    "id": 1,
+    "districts": [
+      {
+        "id": "taplejung",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 24934 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 18408 },
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 20023 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 27475 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "panchthar",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 14476 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 814 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 16025 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 19126 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "illam",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 371 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 26920 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 26772 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 16864 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 25918 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 25544 },
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 29844 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 17616 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "jhapa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 19906 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 610 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 11330 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 7853 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3292 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 10121 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 11561 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 2809 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 21481 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 17324 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 6884 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 1219 }
+            ],
+            "elected": { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 21481 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 16713 },
+              { "party": 3, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 1704 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 17602 },
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 21398 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 5,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 27687 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 22019 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 10181 },
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 29284 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "morang",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 15171 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 24314 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 1227 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 6986 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 9902 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 29294 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 12844 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 25392 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 23893 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 22198 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 7760 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 82 }
+            ],
+            "elected": { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 23893 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 27881 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 10205 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 7869 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 6832 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 5,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 15835 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 25956 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 10146 },
+              { "party": 1, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 21397 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 6,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 17378 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 26569 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 28129 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 27468 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "sunsari",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 3315 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 21498 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 27564 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 222 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 19927 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 28120 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 24671 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 24843 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 21123 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3741 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 3547 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 65 }
+            ],
+            "elected": { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 21123 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 24979 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 7561 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 14698 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 16867 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dhankuta",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 3038 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 23407 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 5913 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 20547 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "sankhuwasabha",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 4182 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 10553 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 3015 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 24677 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "bhojpur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 8096 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 9805 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 9465 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 11723 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "terhathum",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 24263 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 7966 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 9243 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 26108 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "okhaldhunga",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 17884 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 505 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 11426 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 8538 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "khootang",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 26104 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 16017 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 23601 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 12141 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "solukhumbu",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 26995 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 29138 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 22222 },
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 15575 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "udayapur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 7559 },
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 11462 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 22624 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 28163 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 24446 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 24156 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 6976 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 8356 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "districts": [
+      {
+        "id": "saptari",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 19810 },
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 23483 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 10620 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 11014 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 9686 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 1274 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 5305 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 5665 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 25855 },
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 12456 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 10578 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 2163 }
+            ],
+            "elected": { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 25855 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 21437 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 2919 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 627 },
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 23279 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "sihara",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 12553 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 27009 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 1405 },
+              { "party": 3, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 373 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 18812 },
+              { "party": 3, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 14300 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 8189 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 6611 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29361 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 28061 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 27116 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 9378 }
+            ],
+            "elected": { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29361 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 22683 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 478 },
+              { "party": 0, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 5375 },
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 7868 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dhanusa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 5748 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 14944 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 23887 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 18586 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 25925 },
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 24187 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 5745 },
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 5381 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 19179 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 12853 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 10533 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 7892 }
+            ],
+            "elected": { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 19179 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 11810 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 28531 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 5793 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 16430 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "mahottari",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29352 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 17283 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 7463 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 3941 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 16627 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 21915 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 5575 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 17590 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 26033 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 6877 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 5590 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 116 }
+            ],
+            "elected": { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 26033 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 2837 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 14182 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 19765 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 15495 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "sarlahi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 13854 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 268 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 14623 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 18403 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 12612 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 24894 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 1112 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 24129 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 19277 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 19013 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 4253 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 841 }
+            ],
+            "elected": { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 19277 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 28155 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 6643 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 9502 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 16208 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "rautahat",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 26021 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 19860 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 12805 },
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 20738 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 20386 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 15232 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 25250 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 5086 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 21276 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 13779 },
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 8293 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 6641 }
+            ],
+            "elected": { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 21276 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 27189 },
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 17806 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 29646 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 29839 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "bara",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 5909 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 20258 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 20132 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 23620 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 2826 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 3938 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 20998 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 27620 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 23801 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 13327 },
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 6430 },
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 1249 }
+            ],
+            "elected": { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 23801 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 28377 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 9422 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 287 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 5622 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "parsa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 2035 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 28232 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 3246 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 14117 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 12996 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 17727 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 5106 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 4878 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 21266 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 17573 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 9099 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 5183 }
+            ],
+            "elected": { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 21266 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 11587 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 22465 },
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 29068 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 15905 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "districts": [
+      {
+        "id": "sindhuli",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 11969 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 14357 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 14822 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 345 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 24150 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 23665 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 18993 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 16881 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "ramechhap",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 19128 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 16379 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 7037 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 24923 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dolkha",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 2069 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 28748 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29945 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 11060 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "sindhupalchowk",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 24908 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 21254 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 25814 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 8709 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 3832 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 10084 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 16570 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 9730 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kavrepalanchowk",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 29267 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 14562 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 19210 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 16110 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 22570 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 29133 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 18985 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 27149 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "lalitpur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 27588 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 27100 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 2781 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 15508 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 3342 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 19918 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 21921 },
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 11315 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 25956 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 11043 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 4651 },
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 4561 }
+            ],
+            "elected": { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 25956 }
+          }
+        ]
+      },
+      {
+        "id": "bhaktapur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 11230 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 29069 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 29717 },
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 65 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 12686 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 16219 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 17834 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 27258 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kathmandu",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 12834 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 15740 },
+              { "party": 3, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 4995 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 19397 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 29592 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 985 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 6350 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 29872 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 24293 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 20983 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 2807 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 2280 }
+            ],
+            "elected": { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 24293 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 22544 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 17059 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 21815 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 10598 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 5,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 17820 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 11786 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 19408 },
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 2670 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 6,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 13154 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 1213 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 1895 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 25569 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 7,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 20974 },
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 6550 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 13262 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 18179 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 8,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 28860 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 9353 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 7808 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 24833 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 9,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 25801 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 20965 },
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 16741 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 4915 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 10,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 9794 },
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 22420 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 9642 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 26600 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "nuwakot",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 13108 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 5988 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 13044 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 3369 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 13525 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 15173 },
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 9810 },
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 15405 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "rasuwa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 27611 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 22745 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 772 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 24726 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dhading",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 763 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 18050 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 18790 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 25401 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 28765 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3817 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 14803 },
+              { "party": 0, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 26105 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "makwanpur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 27222 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 24237 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 25276 },
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 15319 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 22211 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 10609 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 23998 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 24765 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "chitwan",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 24531 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 18904 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 13519 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 8203 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 19430 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 29010 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 17998 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 7821 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29531 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 20587 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 18038 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 14110 }
+            ],
+            "elected": { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 29531 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "districts": [
+      {
+        "id": "gorkha",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 19332 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 26356 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 17836 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 15002 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 1835 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 16921 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 5277 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 28334 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "lamjung",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 6183 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 25857 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 13871 },
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 16269 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "tanahun",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 18410 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 20421 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 21439 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 1616 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 12389 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 7418 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 17550 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 29898 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "syanja",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 17588 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 15342 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 27975 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 18907 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 4744 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 26984 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 22613 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 18192 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kaski",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 5969 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 21890 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 22120 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 28543 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 28173 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 9021 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 8962 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 7544 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 25674 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 3091 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 1836 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 139 }
+            ],
+            "elected": { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 25674 }
+          }
+        ]
+      },
+      {
+        "id": "manang",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 2294 },
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 15004 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 4750 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 28628 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "mustang",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 22581 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 2040 },
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 15250 },
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 24121 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "parbat",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 5229 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 26921 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 13589 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 26423 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "myangdi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 26779 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 23479 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 2052 },
+              { "party": 2, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 5472 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "baglung",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 6179 },
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 21216 },
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 478 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 2938 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 2805 },
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 7184 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 9330 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 16837 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "nawalparasieast",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3049 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 23085 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 2980 },
+              { "party": 4, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 2680 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 15249 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 4415 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 16142 },
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 9228 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "districts": [
+      {
+        "id": "gulmi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 2365 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 29490 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 13331 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 5902 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 19563 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 7693 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 3708 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 10431 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "palpa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 4798 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 20333 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 20965 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 22909 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 27948 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 5026 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 14196 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 6065 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "rupandehi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 20321 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 15880 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 19252 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 14426 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 9042 },
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 16350 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 25650 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 4079 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 16772 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 11168 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 9853 },
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 3469 }
+            ],
+            "elected": { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 16772 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 6913 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 23080 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 894 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 12380 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 5,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 11400 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 15340 },
+              { "party": 1, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 9630 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 28998 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "arghakhanchi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 26858 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 17008 },
+              { "party": 0, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 3360 },
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 20095 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kapilvastu",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 25923 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 19938 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 10566 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 15183 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 10633 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 8390 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 23528 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 26666 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 14681 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 11454 },
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 8022 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 8018 }
+            ],
+            "elected": { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 14681 }
+          }
+        ]
+      },
+      {
+        "id": "pyuthan",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 6418 },
+              { "party": 2, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 27725 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 4399 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 29857 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "rolpa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 14867 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 7798 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 21266 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 4742 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dang",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 3347 },
+              { "party": 4, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 13360 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 23420 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 28363 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 20954 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 15094 },
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 2697 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 8027 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 29293 },
+              { "party": 1, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 27795 },
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 24538 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 1216 }
+            ],
+            "elected": { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 29293 }
+          }
+        ]
+      },
+      {
+        "id": "bardiya",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 4737 },
+              { "party": 0, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 2751 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 17523 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 2643 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 25031 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 16521 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 22455 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 19084 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "banke",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 23991 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 28749 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3817 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 8083 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 18703 },
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 25527 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 16681 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 3016 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 27762 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 9052 },
+              { "party": 2, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 6232 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 3702 }
+            ],
+            "elected": { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 27762 }
+          }
+        ]
+      },
+      {
+        "id": "nawalpasariwest",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 8670 },
+              { "party": 0, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 664 },
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 26107 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 22528 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 20915 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 11232 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 11393 },
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 22473 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "rukumeast",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 29783 },
+              { "party": 0, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 4763 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 7683 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 25485 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "districts": [
+      {
+        "id": "rukumwest",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 4242 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 28984 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 11731 },
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 7353 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "salyan",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 7573 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 9879 },
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 2658 },
+              { "party": 2, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 4074 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "surkhet",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 16533 },
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 11695 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 29653 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 5895 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 14024 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 18782 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 19488 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 4137 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dailekh",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 2104 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 28894 },
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 27438 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 21945 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 28963 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 430 },
+              { "party": 4, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 21838 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 3645 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "jajarkot",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 12450 },
+              { "party": 3, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 27230 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 7929 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 14940 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "dolpa",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 15402 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 14341 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 6393 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 26026 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "humla",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 9953 },
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 4465 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 2033 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 12493 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kalikot",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 5438 },
+              { "party": 3, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 3703 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 19748 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 18992 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "mugu",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 11084 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 14037 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 25539 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 2434 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "jumla",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 11065 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 13237 },
+              { "party": 3, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 1956 },
+              { "party": 0, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 810 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "districts": [
+      {
+        "id": "bajhura",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 23634 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 19325 },
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 20695 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 26322 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "bajham",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 10830 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 15690 },
+              { "party": 0, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 26897 },
+              { "party": 1, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 15461 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "achham",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 24658 },
+              { "party": 3, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 13926 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 28834 },
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 5656 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 13070 },
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 17642 },
+              { "party": 1, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 695 },
+              { "party": 2, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 2250 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "doti",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 18404 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 15410 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 6483 },
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 1900 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kailali",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 28041 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 4056 },
+              { "party": 4, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 15365 },
+              { "party": 0, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 9717 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 5462 },
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 17354 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 3547 },
+              { "party": 2, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 6559 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 24689 },
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 11424 },
+              { "party": 4, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 4566 },
+              { "party": 2, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 4430 }
+            ],
+            "elected": { "party": 1, "name_np": "माधव कुमार नेपाल", "name_en": "Madhab Kumar Nepal", "vote": 24689 }
+          },
+          {
+            "id": 4,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 16948 },
+              { "party": 1, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 17827 },
+              { "party": 0, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 27663 },
+              { "party": 3, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 25416 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 5,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 26486 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 290 },
+              { "party": 3, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 26838 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 3572 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "kanchanpur",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 14541 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 12515 },
+              { "party": 3, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 26442 },
+              { "party": 0, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 26742 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 2,
+            "declared": false,
+            "result": [
+              { "party": 1, "name_np": "हिमिला यामी", "name_en": "Hisila Yami", "vote": 19463 },
+              { "party": 3, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 19059 },
+              { "party": 2, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 27742 },
+              { "party": 0, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 7004 }
+            ],
+            "elected": {}
+          },
+          {
+            "id": 3,
+            "declared": true,
+            "result": [
+              { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 17197 },
+              { "party": 1, "name_np": "जलनाथ खनाल", "name_en": "Jhalanath Khanal", "vote": 13020 },
+              { "party": 4, "name_np": "शेरबहादुर देउवा", "name_en": "Sher Bahadur Deuba", "vote": 9383 },
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 4377 }
+            ],
+            "elected": { "party": 2, "name_np": "योगेश भट्टराई", "name_en": "Yogesh Bhattarai", "vote": 17197 }
+          }
+        ]
+      },
+      {
+        "id": "dadeldhura",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 0, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 17686 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 27901 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 13558 },
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 14780 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "baitadi",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 4, "name_np": "बाबुरल भट्टराई", "name_en": "Baburam Bhattara", "vote": 1615 },
+              { "party": 2, "name_np": "विश्वप्रकाश सुवेदी", "name_en": "Bishwa Prakash Subedi", "vote": 26826 },
+              { "party": 1, "name_np": "गगन थापा", "name_en": "Gagan Thapa", "vote": 4777 },
+              { "party": 3, "name_np": "सागर ढकाल", "name_en": "Sagar Dhakal", "vote": 15983 }
+            ],
+            "elected": {}
+          }
+        ]
+      },
+      {
+        "id": "darchula",
+        "regions": [
+          {
+            "id": 1,
+            "declared": false,
+            "result": [
+              { "party": 3, "name_np": "राजेन्द्र लिङ्देन", "name_en": "Ranjendra Lingden", "vote": 14396 },
+              { "party": 2, "name_np": "पुष्पकमल दाहाल", "name_en": "Pushpakamal Dahal", "vote": 7382 },
+              { "party": 1, "name_np": "केपी ओली", "name_en": "KP Oli", "vote": 704 },
+              { "party": 4, "name_np": "रवि लामिछाने", "name_en": "Rabi Lamichhane", "vote": 14216 }
+            ],
+            "elected": {}
+          }
+        ]
+      }
+    ]
+  }
+]

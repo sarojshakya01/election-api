@@ -1,0 +1,438 @@
+{
+  "provinces": [
+    {
+      "id": 1,
+      "name_np": "प्रदेश १",
+      "name_en": "Province 1",
+      "districts": [
+        {
+          "id": "taplejung",
+          "name_en": "Taplejung",
+          "name_np": "ताप्लेजुङ"
+        },
+        {
+          "id": "panchthar",
+          "name_en": "Panchthar",
+          "name_np": "पाँचथर"
+        },
+        {
+          "id": "illam",
+          "name_en": "Illam",
+          "name_np": "इलाम"
+        },
+        {
+          "id": "jhapa",
+          "name_en": "Jhapa",
+          "name_np": "झापा"
+        },
+        {
+          "id": "morang",
+          "name_en": "Morang",
+          "name_np": "मोरङ"
+        },
+        {
+          "id": "sunsari",
+          "name_en": "Sunsari",
+          "name_np": "सुनसरी"
+        },
+        {
+          "id": "dhankuta",
+          "name_en": "Dhankuta",
+          "name_np": "धनकुटा"
+        },
+        {
+          "id": "sankhuwasabha",
+          "name_en": "Sankhuwasabha",
+          "name_np": "संखुवासभा"
+        },
+        {
+          "id": "bhojpur",
+          "name_en": "Bhojpur",
+          "name_np": "भोजपुर"
+        },
+        {
+          "id": "terhathum",
+          "name_en": "Terhathum",
+          "name_np": "तेह्रथुम"
+        },
+        {
+          "id": "okhaldhunga",
+          "name_en": "Okhaldhunga",
+          "name_np": "ओखलढुंगा"
+        },
+        {
+          "id": "khotang",
+          "name_en": "Khotang",
+          "name_np": "खोटाङ"
+        },
+        {
+          "id": "solukhumbu",
+          "name_en": "Solukhumbu",
+          "name_np": "सोलुखुम्बु"
+        },
+        {
+          "id": "udayapur",
+          "name_en": "Udayapur",
+          "name_np": "उदयपुर"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_np": "मधेस प्रदेश",
+      "name_en": "Madhesh Pradesh",
+      "districts": [
+        {
+          "id": "saptari",
+          "name_en": "Saptari",
+          "name_np": "सप्तरी"
+        },
+        {
+          "id": "siraha",
+          "name_en": "Siraha",
+          "name_np": "सिराहा"
+        },
+        {
+          "id": "dhanusa",
+          "name_en": "Dhanusa",
+          "name_np": "धनुषा"
+        },
+        {
+          "id": "mahottari",
+          "name_en": "Mahottari",
+          "name_np": "महोत्तरी"
+        },
+        {
+          "id": "sarlahi",
+          "name_en": "Sarlahi",
+          "name_np": "सर्लाही"
+        },
+        {
+          "id": "rauthat",
+          "name_en": "Rauthat",
+          "name_np": "रौतहट"
+        },
+        {
+          "id": "bara",
+          "name_en": "Bara",
+          "name_np": "वारा"
+        },
+        {
+          "id": "parsa",
+          "name_en": "Parsa",
+          "name_np": "पर्सा"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_np": "बागमती प्रदेश",
+      "name_en": "Bagmati Promince",
+      "districts": [
+        {
+          "id": "sindhuli",
+          "name_en": "Sindhuli",
+          "name_np": "सिन्धुली"
+        },
+        {
+          "id": "ramechhap",
+          "name_en": "Ramechhap",
+          "name_np": "रामेछाप"
+        },
+        {
+          "id": "dolkha",
+          "name_en": "Dolkha",
+          "name_np": "दोलखा"
+        },
+        {
+          "id": "sindhupalchowk",
+          "name_en": "Sindhupalchowk",
+          "name_np": "सिन्धुपाल्चोक"
+        },
+        {
+          "id": "kavrepalanchowk",
+          "name_en": "Kavrepalanchowk",
+          "name_np": "काभ्रेपलान्चोक"
+        },
+        {
+          "id": "lalitpur",
+          "name_en": "Lalitpur",
+          "name_np": "ललितपुर"
+        },
+        {
+          "id": "bhaktapur",
+          "name_en": "Bhaktapur",
+          "name_np": "भक्तपुर"
+        },
+        {
+          "id": "kathmandu",
+          "name_en": "Kathmandu",
+          "name_np": "काठमाण्डौ"
+        },
+        {
+          "id": "nuwakot",
+          "name_en": "Nuwakot",
+          "name_np": "नुवाकोट"
+        },
+        {
+          "id": "rasuwa",
+          "name_en": "Rasuwa",
+          "name_np": "रसुवा"
+        },
+        {
+          "id": "dhading",
+          "name_en": "Dhading",
+          "name_np": "धादिङ"
+        },
+        {
+          "id": "makwanpur",
+          "name_en": "Makwanpur",
+          "name_np": "मकवानपुर"
+        },
+        {
+          "id": "chitwan",
+          "name_en": "Chitwan",
+          "name_np": "चितवन"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_np": "गण्डकी प्रदेश",
+      "name_en": "Gandaki Province",
+      "districts": [
+        {
+          "id": "gorkha",
+          "name_en": "Gorkha",
+          "name_np": "गोरखा"
+        },
+        {
+          "id": "lamjung",
+          "name_en": "Lamjung",
+          "name_np": "लमजुङ"
+        },
+        {
+          "id": "tanahun",
+          "name_en": "Tanahun",
+          "name_np": "तनहुँ"
+        },
+        {
+          "id": "syangja",
+          "name_en": "Syangja",
+          "name_np": "स्याङजा"
+        },
+        {
+          "id": "kaski",
+          "name_en": "Kaski",
+          "name_np": "कास्की"
+        },
+        {
+          "id": "manang",
+          "name_en": "Manang",
+          "name_np": "मनाङ"
+        },
+        {
+          "id": "mustang",
+          "name_en": "Mustang",
+          "name_np": "मुस्ताङ"
+        },
+        {
+          "id": "parbat",
+          "name_en": "Parbat",
+          "name_np": "पर्वत"
+        },
+        {
+          "id": "myagdi",
+          "name_en": "Myagdi",
+          "name_np": "म्याग्दी"
+        },
+        {
+          "id": "baglung",
+          "name_en": "Baglung",
+          "name_np": "वाग्लुङ"
+        },
+        {
+          "id": "nawalparasieast",
+          "name_en": "Nawalparasi East",
+          "name_np": "नवलपरासी पूर्व"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_np": "लुम्बिनी प्रदेश",
+      "name_en": "Lumbini Province",
+      "districts": [
+        {
+          "id": "gulmi",
+          "name_en": "Gulmi",
+          "name_np": "गुल्मी"
+        },
+        {
+          "id": "palpa",
+          "name_en": "Palpa",
+          "name_np": "पाल्पा"
+        },
+        {
+          "id": "rupandehi",
+          "name_en": "Rupandehi",
+          "name_np": "रुपन्देही"
+        },
+        {
+          "id": "arghakhanchi",
+          "name_en": "Arghakhanchi",
+          "name_np": "अर्घाखाँची"
+        },
+        {
+          "id": "kapilvastu",
+          "name_en": "Kapilvastu",
+          "name_np": "कपिलवस्तु"
+        },
+        {
+          "id": "pyuthan",
+          "name_en": "Pyuthan",
+          "name_np": "प्यूठान"
+        },
+        {
+          "id": "rolpa",
+          "name_en": "Rolpa",
+          "name_np": "रोल्पा"
+        },
+        {
+          "id": "dang",
+          "name_en": "Dang",
+          "name_np": "दाङ"
+        },
+        {
+          "id": "bardiya",
+          "name_en": "Bardiya",
+          "name_np": "बर्दिया"
+        },
+        {
+          "id": "banke",
+          "name_en": "Banke",
+          "name_np": "बाँके"
+        },
+        {
+          "id": "nawalparasiwest",
+          "name_en": "Nawalparasi West",
+          "name_np": "नवलपरासी पश्चिम"
+        },
+        {
+          "id": "rukumeast",
+          "name_en": "Rukum East",
+          "name_np": "रुकुम पूर्व"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name_np": "कर्णाली प्रदेश",
+      "name_en": "Karnali Province",
+      "districts": [
+        {
+          "id": "rukumwest",
+          "name_en": "Rukum West",
+          "name_np": "रुकुम पश्चिम"
+        },
+        {
+          "id": "salyan",
+          "name_en": "Salyan",
+          "name_np": "सल्यान"
+        },
+        {
+          "id": "surkhet",
+          "name_en": "Surkhet",
+          "name_np": "सुर्खेत"
+        },
+        {
+          "id": "dailekh",
+          "name_en": "Dailekh",
+          "name_np": "दैलेख"
+        },
+        {
+          "id": "jajarkot",
+          "name_en": "Jajarkot",
+          "name_np": "जाजरकोट"
+        },
+        {
+          "id": "dolpa",
+          "name_en": "Dolpa",
+          "name_np": "डोल्पा"
+        },
+        {
+          "id": "humla",
+          "name_en": "Humla",
+          "name_np": "हुम्ला"
+        },
+        {
+          "id": "kalikot",
+          "name_en": "Kalikot",
+          "name_np": "कालिकोट"
+        },
+        {
+          "id": "mugu",
+          "name_en": "Mugu",
+          "name_np": "मुगू"
+        },
+        {
+          "id": "jumla",
+          "name_en": "Jumla",
+          "name_np": "जुम्ला"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name_np": "सुदूरपश्चिम प्रदेश",
+      "name_en": "Sudur Pashchim Province",
+      "districts": [
+        {
+          "id": "bajura",
+          "name_en": "Bajura",
+          "name_np": "बाजुरा"
+        },
+        {
+          "id": "bajhang",
+          "name_en": "Bajhang",
+          "name_np": "बझाङ"
+        },
+        {
+          "id": "achham",
+          "name_en": "Achham",
+          "name_np": "अछाम"
+        },
+        {
+          "id": "doti",
+          "name_en": "Doti",
+          "name_np": "डोटी"
+        },
+        {
+          "id": "kailali",
+          "name_en": "Kailali",
+          "name_np": "कैलाली"
+        },
+        {
+          "id": "kanchanpur",
+          "name_en": "Kanchanpur",
+          "name_np": "कंचनपुर"
+        },
+        {
+          "id": "dadeldhura",
+          "name_en": "Dadeldhura",
+          "name_np": "डडेल्धुरा"
+        },
+        {
+          "id": "baitadi",
+          "name_en": "Baitadi",
+          "name_np": "बैतडी"
+        },
+        {
+          "id": "darchula",
+          "name_en": "Darchula",
+          "name_np": "दार्चुला"
+        }
+      ]
+    }
+  ]
+}

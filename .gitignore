@@ -1,0 +1,7 @@
+*pycache*
+bin
+core
+lib
+pyvenv.cfg
+include
+.vscode
