@@ -84,6 +84,7 @@ async def fetch_results(request: Request,
         prov = {"id": count, "districts": json.loads(row[0])}
         federal["provinces"].append(prov)
         count = count + 1
+    count = 1
     for row in pprovinces:
         prov = {"id": count, "districts": json.loads(row[0])}
         count = count + 1
