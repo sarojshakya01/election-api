@@ -1,0 +1,2 @@
+-- before running following script check SELECT @@secure_file_priv; and set to empty (google how to set empty from .cnf file)
+select * from ds_election_results INTO OUTFILE 'path/to/federal.csv'  FIELDS ENCLOSED BY '"'  TERMINATED BY ';'  ESCAPED BY '"'  LINES TERMINATED BY '\r\n';

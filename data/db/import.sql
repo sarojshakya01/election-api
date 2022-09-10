@@ -1,0 +1,2 @@
+-- before running following script check SELECT @@secure_file_priv; and set to empty (google how to set empty from .cnf file)
+LOAD DATA LOCAL INFILE 'path/to/federal.csv'  INTO TABLE ds_election_results  FIELDS TERMINATED BY '|'  ENCLOSED BY "'" LINES TERMINATED BY '\r\n' IGNORE 1 ROWS;

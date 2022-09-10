@@ -2,21 +2,19 @@ from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # import v1.dependencies.dependencies as dependencies
-
 from v1.endpoints import result, district, admin
+from core.models.database import engine
+from core.models import models
+from core.settings import ALLOWED_ORIGINS
 
 # app = FastAPI(dependencies=[Depends(dependencies.get_query_token)])
 app = FastAPI()
 
-origins = [
-    "http://localhost:3001",
-    "http://localhost:3333",
-    "https://saroj.el369.javra.com",
-]
+models.Base.metadata.create_all(bind=engine)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
