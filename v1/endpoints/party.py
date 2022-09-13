@@ -4,22 +4,22 @@ from fastapi import Depends, FastAPI, APIRouter, Depends, Header, HTTPException
 
 import json
 
-
-router = APIRouter(prefix="/api/v1/district",
-                   tags=["central", "province"],
-                #    dependencies=[Depends(dependencies.get_token_header)],
-                   responses={404: {
-                       "description": "Not found"
-                   }})
+router = APIRouter(
+    prefix="/api/v1/party",
+    tags=["central", "province"],
+    #    dependencies=[Depends(dependencies.get_token_header)],
+    responses={404: {
+        "description": "Not found"
+    }})
 
 
 @router.get("/all")
-async def get_districts():
+async def get_parties():
     try:
-        with open('data/districts.json') as stream:
-            districts = json.load(stream)
+        with open('data/parties.json') as stream:
+            parties = json.load(stream)
         return {
-            'data': districts,
+            'data': parties,
             'message': "Data Read Successfully",
             'status': 'OK'
         }

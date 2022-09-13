@@ -2,7 +2,7 @@ from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # import v1.dependencies.dependencies as dependencies
-from v1.endpoints import result, district, admin
+from v1.endpoints import result, district, party, admin
 from core.models.database import engine
 from core.models import models
 from core.settings import ALLOWED_ORIGINS
@@ -22,6 +22,7 @@ app.add_middleware(
 
 app.include_router(result.router)
 app.include_router(district.router)
+app.include_router(party.router)
 app.include_router(
     admin.router,
     prefix="/admin",

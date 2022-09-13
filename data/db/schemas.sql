@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS ds_election_provinces (
     province_id int NOT NULL,
     name_np varchar(100) NOT NULL,
     name_en varchar(100) NOT NULL,
+    color varchar(10),
     created_at timestamp default now(), 
     updated_at timestamp default now() on update now(),
     PRIMARY KEY (id),

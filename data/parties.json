@@ -1,0 +1,654 @@
+{
+  "parties": [
+    {
+      "id": 0,
+      "name_np": "अन्य",
+      "name_en": "Other",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "O",
+      "symbol": "",
+      "color": "#123456"
+    },
+    {
+      "id": 1,
+      "name_np": "नेपाल कम्युनिष्ट पार्टी (एमाले)",
+      "name_en": "Communist Party of Nepal (Unified Marxist–Leninist)",
+      "short_name_np": "एमाले",
+      "short_name_en": "CPN UML",
+      "code": "CPNUML",
+      "symbol": "",
+      "color": "#990000"
+    },
+    {
+      "id": 2,
+      "name_np": "नेपाली काँग्रेस",
+      "name_en": "Nepali Congress",
+      "short_name_np": "काँग्रेस",
+      "short_name_en": "Congress",
+      "code": "NC",
+      "symbol": "",
+      "color": "#005500"
+    },
+    {
+      "id": 3,
+      "name_np": "नेपाल कमयुनिस्ट पार्टी (माओवादी-केन्द्र)",
+      "name_en": "Communist Party of Nepal (Maoist Centre)",
+      "short_name_np": "माओवादी-केन्द्र",
+      "short_name_en": "Maoist",
+      "code": "CPNMC",
+      "symbol": "",
+      "color": "#770000"
+    },
+    {
+      "id": 4,
+      "name_np": "नेपाल कम्युनिस्ट पार्टी (एकीकृत समाजवादी)",
+      "name_en": "Communist Party of Nepal (Unified Socialist)",
+      "short_name_np": "एकीकृत समाजवादी",
+      "short_name_en": "Unified Socialist",
+      "code": "CPNUS",
+      "symbol": "",
+      "color": "#330000"
+    },
+    {
+      "id": 5,
+      "name_np": "जनता समाजवादी पार्टी, नेपाल",
+      "name_en": "People's Socialist Party, Nepal",
+      "short_name_np": "जसपा",
+      "short_name_en": "JaSaPa",
+      "code": "PSPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 6,
+      "name_np": "लोकतान्त्रिक समाजवादी पार्टी",
+      "name_en": "Democratic Socialist Party, Nepal",
+      "short_name_np": "लोसपा",
+      "short_name_en": "LoSaPa",
+      "code": "DSPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 7,
+      "name_np": "नेपाल समाजवादी पार्टी",
+      "name_en": "Socialist Party of Nepal ",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "SPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 8,
+      "name_np": "राष्ट्रिय प्रजातन्त्र पार्टी",
+      "name_en": "National Democratic Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NDP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 9,
+      "name_np": "नेपाल मजदुर किसान पार्टी",
+      "name_en": "Nepal Workers Peasants Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NWPP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 10,
+      "name_np": "राष्ट्रिय जनमोर्चा",
+      "name_en": "National People's Front",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NPF",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 10,
+      "name_np": "जनता प्रगतिशील पार्टी",
+      "name_en": "People's Progressive Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "PPP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 11,
+      "name_np": "विवेकशील साझा पार्टी",
+      "name_en": "Bibeksheel Sajha Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "BSS",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 12,
+      "name_np": "नेकपा माले",
+      "name_en": "Communist Party of Nepal (Marxist–Leninist) ",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CPNML",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 13,
+      "name_np": "मंगोल नेशनल अर्गनाइजेसन",
+      "name_en": "Mongol National Organisation",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "MNO",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 14,
+      "name_np": "किरात खम्बुवान साझा पार्टी",
+      "name_en": "Kirat Khumbuwan Common Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "KKCP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 15,
+      "name_np": "उन्‍नत लोकतन्त्र पार्टी",
+      "name_en": "Advance Democratic Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "ADP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 16,
+      "name_np": "नेपाल लोकतान्त्रिक पार्टी",
+      "name_en": "Nepal Democratic Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "ND",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 17,
+      "name_np": "जनमत पार्टी",
+      "name_en": "Public Opinion Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "POP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 18,
+      "name_np": "मौलिक जरोकिलो पार्टी",
+      "name_en": "",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NCP_UML",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 19,
+      "name_np": "तामाङसालिङ लोकतान्त्रिक पार्टी",
+      "name_en": "Tamangsaling Democratic Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "TDP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 20,
+      "name_np": "जनजागरण पार्टी नेपाल",
+      "name_en": "Janajagaran Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "JPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 21,
+      "name_np": "राष्ट्रिय नागरिक पार्टी",
+      "name_en": "National Citizen Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NCP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 22,
+      "name_np": "नेपाः राष्ट्रिय पार्टी",
+      "name_en": "NEPA: National Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NEPANP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 23,
+      "name_np": "नेकपा राष्ट्रवादी",
+      "name_en": "CPN Nationalist",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CPNN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 24,
+      "name_np": "राष्ट्रिय यथार्थवादी पार्टी, नेपाल",
+      "name_en": "National Realist Party, Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NRPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 25,
+      "name_np": "नेश्नलिष्ट पिपल्स पार्टी",
+      "name_en": "Nationalist Peoples Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NPP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 26,
+      "name_np": "प्रजातान्त्रिक पार्टी नेपाल",
+      "name_en": "Democratic Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "DPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 27,
+      "name_np": "समाजवादी केन्द्र नेपाल",
+      "name_en": "Socialist Center Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "SCN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 28,
+      "name_np": "नेपाल कम्युनिष्ट पार्टी परिवर्तन",
+      "name_en": "",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 29,
+      "name_np": "नेपाल दलित पार्टी",
+      "name_en": "Nepal Dalit Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NDP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 30,
+      "name_np": "देशभक्त समाज",
+      "name_en": "Patriotic Society",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "PS",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 31,
+      "name_np": "साझा पार्टी नेपाल",
+      "name_en": "Common Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 32,
+      "name_np": "नेपाल समावेशी पार्टी",
+      "name_en": "Nepal Inclusive Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NIP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 33,
+      "name_np": "नेपाली जनता दल",
+      "name_en": "Nepali Janata Dal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NJD",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 34,
+      "name_np": "आमूल परिवर्तन मसिहा पार्टी नेपाल",
+      "name_en": "",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 35,
+      "name_np": "नेपाल परिवार दल",
+      "name_en": "Nepal Family Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NFF",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 36,
+      "name_np": "नेकपा मार्क्सवादी (पुष्पलाल)",
+      "name_en": "CPN Marxist (Pushpalal)",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CPNM",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 37,
+      "name_np": "खम्बुवान राष्ट्रिय मोर्चा नेपाल",
+      "name_en": "Khambuwan National Front Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "KNFN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 38,
+      "name_np": "नेपालका लागि नेपाली पार्टी",
+      "name_en": "Nepali party for Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 39,
+      "name_np": "जनसमाजवादी पार्टी नेपाल",
+      "name_en": "Jana Samajwadi Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "JSPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 40,
+      "name_np": "राप्रपा नेपाल",
+      "name_en": "RPP Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "RPPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 41,
+      "name_np": "नेपाली कांग्रेस (बी.पी.)",
+      "name_en": "Nepali Congress (BP)",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NCBP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 42,
+      "name_np": "नागरिक उन्मुक्ति पार्टी",
+      "name_en": "Citizen Liberation Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CLP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 43,
+      "name_np": "नेकपा समाजवादी",
+      "name_en": "CPN Samajwadi",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CPNS",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 44,
+      "name_np": "पिछडावर्ग निषाद दलित जनजाति पार्टी",
+      "name_en": "",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 45,
+      "name_np": "नेपाल जनता पार्टी",
+      "name_en": "Nepal People's Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 46,
+      "name_np": "राष्ट्रिय समाजवादी पार्टी नेपाल",
+      "name_en": "National Socialist Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NSPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 47,
+      "name_np": "नेपाल संघीय समाजवादी पार्टी",
+      "name_en": "Nepal Federal Socialist Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NFSP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 48,
+      "name_np": "नेपाल जनता पार्टी",
+      "name_en": "Nepal People's Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NPP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 49,
+      "name_np": "सचेत नेपाली पार्टी",
+      "name_en": "Conscious Nepali Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "CNP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 50,
+      "name_np": "जनता प्रगतिशील पार्टी, नेपाल",
+      "name_en": "Janata Pragatisheel Party, Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "JPPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 51,
+      "name_np": "तराइ-मधेश लोकतान्त्रिक पार्टी",
+      "name_en": "Tarai-Madhesh Democratic Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "TMDP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 52,
+      "name_np": "राष्ट्रिय सद्भावना पार्टी",
+      "name_en": "National Goodwill Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NGP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 53,
+      "name_np": "सामाजिक एकता पार्टी",
+      "name_en": "Social Unity Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "SUP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 54,
+      "name_np": "इतिहासिक प्रजातान्त्रिक जनता पार्टी नेपाल",
+      "name_en": "Historical Democratic Janata Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "HDJPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 55,
+      "name_np": "बहुजन समाज पार्टी नेपाल",
+      "name_en": "Bahujan Samaj Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "BSPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 56,
+      "name_np": "नेपाल सुशासन पार्टी",
+      "name_en": "Nepal Good Governance Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NGGP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 57,
+      "name_np": "आधुनिक नेपाल समाजवादी पार्टी",
+      "name_en": "Modern Nepal Samajwadi Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "MNSP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 58,
+      "name_np": "राष्ट्रिय जनमुक्ति पार्टी",
+      "name_en": "National People's Liberation Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NPLP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 59,
+      "name_np": "नेपाल सद्भावना पार्टी",
+      "name_en": "Nepal Goodwill Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NGP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 60,
+      "name_np": "राष्ट्रिय मुक्ति आन्दोलन नेपाल",
+      "name_en": "National Liberation Movement Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "NLMN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 61,
+      "name_np": "बहुजन शक्ति पार्टी",
+      "name_en": "Bahujan Power Party",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "BPP",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 62,
+      "name_np": "बहुजन एकता पार्टी नेपाल",
+      "name_en": "Bahujan Unity Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "BUPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 63,
+      "name_np": "राष्ट्रिय जनता पार्टी नेपाल",
+      "name_en": "Rashtriya Janata Party Nepal",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "RJPN",
+      "symbol": "",
+      "color": "#FF0000"
+    }
+  ]
+}
