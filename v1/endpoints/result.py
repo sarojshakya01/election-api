@@ -23,11 +23,11 @@ models.Base.metadata.create_all(bind=engine)
 
 
 def get_database_session():
-    try:
-        db = SessionLocal()
-        yield db
-    finally:
-        db.close()
+  try:
+    db = SessionLocal()
+    yield db
+  finally:
+    db.close()
 
 
 # @router.get("/{type}")
@@ -73,27 +73,19 @@ def get_database_session():
 
 
 @router.get("/{type}")
-async def fetch_results(request: Request,
-                        db: Session = Depends(get_database_session)):
-    fprovinces = db.execute("select provinces from ds_v_federal_results")
-    pprovinces = db.execute("select provinces from ds_v_provincial_results")
-    federal = {"provinces": []}
-    provincial = {"provinces": []}
-    count = 1
-    for row in fprovinces:
-        prov = {"id": count, "districts": json.loads(row[0])}
-        federal["provinces"].append(prov)
-        count = count + 1
-    count = 1
-    for row in pprovinces:
-        prov = {"id": count, "districts": json.loads(row[0])}
-        count = count + 1
-        provincial["provinces"].append(prov)
-    return {
-        "data": [{
-            "federal": federal,
-            "provincial": provincial
-        }],
-        "message": "Data Read Successfully",
-        "status": "OK"
-    }
+async def fetch_results(request: Request, db: Session = Depends(get_database_session)):
+  fprovinces = db.execute("select provinces from ds_v_federal_results")
+  pprovinces = db.execute("select provinces from ds_v_provincial_results")
+  federal = {"provinces": []}
+  provincial = {"provinces": []}
+  count = 1
+  for row in fprovinces:
+    prov = {"id": count, "districts": json.loads(row[0])}
+    federal["provinces"].append(prov)
+    count = count + 1
+  count = 1
+  for row in pprovinces:
+    prov = {"id": count, "districts": json.loads(row[0])}
+    count = count + 1
+    provincial["provinces"].append(prov)
+  return {"data": [{"federal": federal, "provincial": provincial}], "message": "Data Read Successfully", "status": "OK"}

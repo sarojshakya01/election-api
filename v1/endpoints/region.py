@@ -5,7 +5,7 @@ from fastapi import Depends, FastAPI, APIRouter, Depends, Header, HTTPException
 import json
 
 router = APIRouter(
-    prefix="/api/v1/party",
+    prefix="/api/v1/region",
     tags=["central", "province"],
     #    dependencies=[Depends(dependencies.get_token_header)],
     responses={404: {
@@ -14,11 +14,11 @@ router = APIRouter(
 
 
 @router.get("/all")
-async def get_parties():
+async def get_regions():
   try:
-    with open('data/parties.json') as stream:
-      parties = json.load(stream)
-    return {'data': parties, 'message': "Data Read Successfully", 'status': 'OK'}
+    with open('data/regions.json') as stream:
+      regions = json.load(stream)
+    return {'data': regions, 'message': "Data Read Successfully", 'status': 'OK'}
   except:
 
     raise HTTPException(status_code=404, detail={'data': [], 'message': "Data Read Failed", 'status': 'FAILED'})

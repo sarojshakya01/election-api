@@ -2,7 +2,7 @@ from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # import v1.dependencies.dependencies as dependencies
-from v1.endpoints import result, district, party, admin
+from v1.endpoints import region, result, party, admin
 from core.models.database import engine
 from core.models import models
 from core.settings import ALLOWED_ORIGINS
@@ -21,21 +21,19 @@ app.add_middleware(
 )
 
 app.include_router(result.router)
-app.include_router(district.router)
+app.include_router(region.router)
 app.include_router(party.router)
 app.include_router(
     admin.router,
     prefix="/admin",
     tags=["admin"],
     # dependencies=[Depends(dependencies.get_token_header)],
-    responses={
-        418: {
-            "description": "You are not authorized to see this page"
-        }
-    },
+    responses={418: {
+        "description": "You are not authorized to see this page"
+    }},
 )
 
 
 @app.get("/")
 async def root():
-    return {"response": "API is running"}
+  return {"response": "API is running"}
