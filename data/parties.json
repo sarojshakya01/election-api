@@ -111,7 +111,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 10,
+      "id": 11,
       "name_np": "जनता प्रगतिशील पार्टी",
       "name_en": "People's Progressive Party",
       "short_name_np": "",
@@ -121,7 +121,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 11,
+      "id": 12,
       "name_np": "विवेकशील साझा पार्टी",
       "name_en": "Bibeksheel Sajha Party",
       "short_name_np": "",
@@ -131,7 +131,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 12,
+      "id": 13,
       "name_np": "नेकपा माले",
       "name_en": "Communist Party of Nepal (Marxist–Leninist) ",
       "short_name_np": "",
@@ -141,7 +141,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 13,
+      "id": 14,
       "name_np": "मंगोल नेशनल अर्गनाइजेसन",
       "name_en": "Mongol National Organisation",
       "short_name_np": "",
@@ -151,7 +151,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 14,
+      "id": 15,
       "name_np": "किरात खम्बुवान साझा पार्टी",
       "name_en": "Kirat Khumbuwan Common Party",
       "short_name_np": "",
@@ -161,7 +161,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 15,
+      "id": 16,
       "name_np": "उन्‍नत लोकतन्त्र पार्टी",
       "name_en": "Advance Democratic Party",
       "short_name_np": "",
@@ -171,7 +171,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 16,
+      "id": 17,
       "name_np": "नेपाल लोकतान्त्रिक पार्टी",
       "name_en": "Nepal Democratic Party",
       "short_name_np": "",
@@ -181,7 +181,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 17,
+      "id": 18,
       "name_np": "जनमत पार्टी",
       "name_en": "Public Opinion Party",
       "short_name_np": "",
@@ -191,9 +191,9 @@
       "color": "#FF0000"
     },
     {
-      "id": 18,
+      "id": 19,
       "name_np": "मौलिक जरोकिलो पार्टी",
-      "name_en": "",
+      "name_en": "Maulik Jarokilo Party",
       "short_name_np": "",
       "short_name_en": "",
       "code": "NCP_UML",
@@ -201,7 +201,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 19,
+      "id": 20,
       "name_np": "तामाङसालिङ लोकतान्त्रिक पार्टी",
       "name_en": "Tamangsaling Democratic Party",
       "short_name_np": "",
@@ -211,7 +211,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 20,
+      "id": 21,
       "name_np": "जनजागरण पार्टी नेपाल",
       "name_en": "Janajagaran Party Nepal",
       "short_name_np": "",
@@ -221,7 +221,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 21,
+      "id": 22,
       "name_np": "राष्ट्रिय नागरिक पार्टी",
       "name_en": "National Citizen Party",
       "short_name_np": "",
@@ -231,7 +231,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 22,
+      "id": 23,
       "name_np": "नेपाः राष्ट्रिय पार्टी",
       "name_en": "NEPA: National Party",
       "short_name_np": "",
@@ -241,7 +241,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 23,
+      "id": 24,
       "name_np": "नेकपा राष्ट्रवादी",
       "name_en": "CPN Nationalist",
       "short_name_np": "",
@@ -251,7 +251,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 24,
+      "id": 25,
       "name_np": "राष्ट्रिय यथार्थवादी पार्टी, नेपाल",
       "name_en": "National Realist Party, Nepal",
       "short_name_np": "",
@@ -261,7 +261,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 25,
+      "id": 26,
       "name_np": "नेश्नलिष्ट पिपल्स पार्टी",
       "name_en": "Nationalist Peoples Party",
       "short_name_np": "",
@@ -271,8 +271,8 @@
       "color": "#FF0000"
     },
     {
-      "id": 26,
-      "name_np": "प्रजातान्त्रिक पार्टी नेपाल",
+      "id": 27,
+      "name_p": "प्रजातान्त्रिक पार्टी नेपाल",
       "name_en": "Democratic Party Nepal",
       "short_name_np": "",
       "short_name_en": "",
@@ -281,7 +281,7 @@
       "color": "#FF0000"
     },
     {
-      "id": 27,
+      "id": 28,
       "name_np": "समाजवादी केन्द्र नेपाल",
       "name_en": "Socialist Center Nepal",
       "short_name_np": "",
@@ -291,32 +291,22 @@
       "color": "#FF0000"
     },
     {
-      "id": 28,
-      "name_np": "नेपाल कम्युनिष्ट पार्टी परिवर्तन",
-      "name_en": "",
-      "short_name_np": "",
-      "short_name_en": "",
-      "code": "",
-      "symbol": "",
-      "color": "#FF0000"
-    },
-    {
       "id": 29,
-      "name_np": "नेपाल दलित पार्टी",
-      "name_en": "Nepal Dalit Party",
+      "name_np": "नेपाल कम्युनिष्ट पार्टी परिवर्तन",
+      "name_en": "Communist Party of Nepal Change",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "NDP",
+      "code": "CPNC",
       "symbol": "",
       "color": "#FF0000"
     },
     {
       "id": 30,
-      "name_np": "देशभक्त समाज",
-      "name_en": "Patriotic Society",
+      "name_np": "नेपाल दलित पार्टी",
+      "name_en": "Nepal Dalit Party",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "PS",
+      "code": "NDP2",
       "symbol": "",
       "color": "#FF0000"
     },
@@ -353,10 +343,10 @@
     {
       "id": 34,
       "name_np": "आमूल परिवर्तन मसिहा पार्टी नेपाल",
-      "name_en": "",
+      "name_en": "Amul Paribartan Masiha Party Nepal",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "",
+      "code": "APMPN",
       "symbol": "",
       "color": "#FF0000"
     },
@@ -453,10 +443,10 @@
     {
       "id": 44,
       "name_np": "पिछडावर्ग निषाद दलित जनजाति पार्टी",
-      "name_en": "",
+      "name_en": "Pichhadabarga Nishad Dalit Janajati Party",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "",
+      "code": "PNDJP",
       "symbol": "",
       "color": "#FF0000"
     },
@@ -496,7 +486,7 @@
       "name_en": "Nepal People's Party",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "NPP",
+      "code": "NPP2",
       "symbol": "",
       "color": "#FF0000"
     },
@@ -606,7 +596,7 @@
       "name_en": "Nepal Goodwill Party",
       "short_name_np": "",
       "short_name_en": "",
-      "code": "NGP",
+      "code": "NGP2",
       "symbol": "",
       "color": "#FF0000"
     },
@@ -647,6 +637,16 @@
       "short_name_np": "",
       "short_name_en": "",
       "code": "RJPN",
+      "symbol": "",
+      "color": "#FF0000"
+    },
+    {
+      "id": 64,
+      "name_np": "देशभक्त समाज",
+      "name_en": "Patriotic Society",
+      "short_name_np": "",
+      "short_name_en": "",
+      "code": "PS",
       "symbol": "",
       "color": "#FF0000"
     }

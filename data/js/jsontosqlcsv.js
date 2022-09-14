@@ -1,24 +1,33 @@
 const fs = require("fs-extra");
 const path = require("path");
-const dataType = "provincial"; // "federal" | "provincial" | "districts"
-const inFile = path.join(__dirname, `../${dataType}.json`);
-const outFile = path.join(__dirname, `../db/${dataType}.csv`);
+const exportType = "federal"; // "federal" | "provincial" | "provinces" | "districts" | regions
+const inFile = path.join(__dirname, `../${exportType}.json`);
+const outFile = path.join(__dirname, `../db/${exportType}.csv`);
 
 let data = fs.readFileSync(inFile);
 
 data = JSON.parse(data);
 
-let rowData = "pid|did|type|rid|declared|result|elected|created_at|updated_at" + "\r\n";
-
-let rowDataProvince = "id|pid|name_np|name_en|created_at|updated_at" + "\r\n";
-let rowDataDistrict = "id|did|pid|name_np|name_en|created_at|updated_at" + "\r\n";
+let rowData = "id|pid|did|rid|rtype|declared|result|elected|created_at|updated_at" + "\r\n";
+let rowDataProvince = "id|pid|name_np|name_en|color|created_at|updated_at" + "\r\n";
+let rowDataDistrict = "id|did|pid|name_np|name_en|tfr|tpr|created_at|updated_at" + "\r\n";
+let rowDataRegion = "id|rid|did|pid|rtype|name_np|name_en|created_at|updated_at" + "\r\n";
 let dcount = 1;
+let rcount = 1;
+let count = 1;
 data.provinces.forEach((p, pi) => {
-  rowDataProvince += `${pi + 1}|${p.id}|${p.name_np}|${p.name_en}|${new Date().toISOString().slice(0, 19).replace('T', ' ')}|${new Date().toISOString().slice(0, 19).replace('T', ' ')}\r\n`;
-  p.districts.forEach((d, di) => {
-    if (dataType === "districts") {
-      rowDataDistrict += `${dcount}|${d.id}|${p.id}|${p.name_np}|${p.name_en}|${new Date().toISOString().slice(0, 19).replace('T', ' ')}|${new Date().toISOString().slice(0, 19).replace('T', ' ')}\r\n`;
+  if (exportType === "provinces") {
+    rowDataProvince += `${pi + 1}|${p.id}|${p.name_np}|${p.name_en}|${p.color}|${new Date().toISOString().slice(0, 19).replace("T", " ")}|${new Date().toISOString().slice(0, 19).replace("T", " ")}\r\n`;
+  }
+  p.districts.forEach((d) => {
+    if (exportType === "districts") {
+      rowDataDistrict += `${dcount}|${d.id}|${p.id}|${d.name_np}|${d.name_en}|${d.total_fregions}|${d.total_pregions}|${new Date().toISOString().slice(0, 19).replace("T", " ")}|${new Date().toISOString().slice(0, 19).replace("T", " ")}\r\n`;
       dcount++;
+    } else if (exportType === "regions") {
+      d.regions.forEach((r) => {
+        rowDataRegion += `${rcount}|${r.id}|${d.id}|${p.id}|${r.rtype}|${r.name_np}|${r.name_en}|${new Date().toISOString().slice(0, 19).replace("T", " ")}|${new Date().toISOString().slice(0, 19).replace("T", " ")}\r\n`;
+        rcount++;
+      });
     } else {
       d.regions.forEach((r, i) => {
         let result = "[";
@@ -26,7 +35,7 @@ data.provinces.forEach((p, pi) => {
           result += JSON.stringify(res) + ",";
         });
 
-        result = result.replaceAll('"', '""');
+        result = result.replace(/"/g, '""');
         result = result.replace(/,\s*$/, "");
 
         result += "]";
@@ -37,17 +46,20 @@ data.provinces.forEach((p, pi) => {
           r.elected = {};
           r.declared = 0;
         }
-        r.elected = JSON.stringify(r.elected).replaceAll('"', '""');
-        let rData = `"${p.id}"|"${d.id}"|${dataType}|"${r.id}"|"${r.declared}"|"${result}"|"${r.elected}"|"${new Date().toISOString().slice(0, 19).replace('T', ' ')}"|"${new Date().toISOString().slice(0, 19).replace('T', ' ')}"\r\n`;
+        r.elected = JSON.stringify(r.elected).replace(/"/g, '""');
+        let rData = `${count}|"${p.id}"|"${d.id}"|"${r.id}"|${exportType}|"${r.declared}"|"${result}"|"${r.elected}"|"${new Date().toISOString().slice(0, 19).replace("T", " ")}"|"${new Date().toISOString().slice(0, 19).replace("T", " ")}"\r\n`;
         rowData += rData;
+        count++;
       });
     }
   });
 });
-
-if (dataType === "districts") {
+if (exportType === "provinces") {
+  fs.writeFileSync(outFile, rowDataProvince);
+} else if (exportType === "districts") {
   fs.writeFileSync(outFile, rowDataDistrict);
-  fs.writeFileSync(outFile.replace("districts", "provinces"), rowDataProvince);
+} else if (exportType === "regions") {
+  fs.writeFileSync(outFile, rowDataRegion);
 } else {
   fs.writeFileSync(outFile, rowData);
 }

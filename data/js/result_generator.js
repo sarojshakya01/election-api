@@ -25,6 +25,7 @@ data = JSON.parse(data);
 
 var names_np = ["पुष्पकमल दाहाल", "केपी ओली", "शेरबहादुर देउवा", "माधव कुमार नेपाल", "जलनाथ खनाल", "बाबुरल भट्टराई", "हिमिला यामी", "रवि लामिछाने", "राजेन्द्र लिङ्देन", "गगन थापा", "सागर ढकाल", "योगेश भट्टराई", "विश्वप्रकाश सुवेदी"];
 var names_en = ["Pushpakamal Dahal", "KP Oli", "Sher Bahadur Deuba", "Madhab Kumar Nepal", "Jhalanath Khanal", "Baburam Bhattara", "Hisila Yami", "Rabi Lamichhane", "Ranjendra Lingden", "Gagan Thapa", "Sagar Dhakal", "Yogesh Bhattarai", "Bishwa Prakash Subedi"];
+var parties = ["CPNUML", "NC", "CPNMC", "O", "CPNUS"];
 newData = data.provinces.map((p) => {
   p.districts.map((d) => {
     d.regions.map((r, i) => {
@@ -39,7 +40,7 @@ newData = data.provinces.map((p) => {
         while (tempRand2.includes(randParty) && i > 0) {
           randParty = Math.floor(Math.random() * 5);
         }
-        rs.party = randParty;
+        rs.party = parties[randParty];
         rs.name_np = names_np[randName];
         rs.name_en = names_en[randName];
         rs.vote = Math.floor(Math.random() * 30000);

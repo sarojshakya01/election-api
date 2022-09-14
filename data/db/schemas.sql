@@ -16,6 +16,8 @@ CREATE TABLE IF NOT EXISTS ds_election_districts (
     province_id int NOT NULL,
     name_np varchar(100) NOT NULL,
     name_en varchar(100) NOT NULL,
+    total_fregions int NOT NULL,
+    total_pregions int NOT NULL,
     created_at timestamp default now(), 
     updated_at timestamp default now() on update now(),
     PRIMARY KEY (id),
@@ -23,12 +25,27 @@ CREATE TABLE IF NOT EXISTS ds_election_districts (
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id)
 );
 
+CREATE TABLE IF NOT EXISTS ds_election_regions (
+    id int NOT NULL AUTO_INCREMENT,
+    region_id float NOT NULL,
+    district_id varchar(50) NOT NULL,
+    province_id int NOT NULL,
+    rtype ENUM ('federal','provincial') NOT NULL default "federal",
+    name_np varchar(100) NOT NULL,
+    name_en varchar(100) NOT NULL,
+    created_at timestamp default now(), 
+    updated_at timestamp default now() on update now(),
+    PRIMARY KEY (id),
+    UNIQUE(district_id, region_id)
+    -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id)
+);
+
 CREATE TABLE IF NOT EXISTS ds_election_fresults (
     id bigint NOT NULL AUTO_INCREMENT,
     province_id int NOT NULL,
     district_id varchar(50) NOT NULL,
-    type ENUM ('federal','provincial') NOT NULL default "federal",
     region_id float NOT NULL,
+    rtype ENUM ('federal','provincial') NOT NULL default "federal",
     declared boolean DEFAULT false,
     result JSON,
     elected JSON,
@@ -43,8 +60,8 @@ CREATE TABLE IF NOT EXISTS ds_election_presults (
     id bigint NOT NULL AUTO_INCREMENT,
     province_id int NOT NULL,
     district_id varchar(50) NOT NULL,
-    type ENUM ('federal','provincial') NOT NULL default "federal",
     region_id float NOT NULL,
+    rtype ENUM ('federal','provincial') NOT NULL default "federal",
     declared boolean DEFAULT false,
     result JSON,
     elected JSON,
@@ -53,6 +70,22 @@ CREATE TABLE IF NOT EXISTS ds_election_presults (
     PRIMARY KEY (id)
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id),
     -- FOREIGN KEY (district_id) REFERENCES ds_election_districts(district_id)
+);
+
+CREATE TABLE IF NOT EXISTS ds_election_parties (
+    id int NOT NULL AUTO_INCREMENT,
+    party_id int NOT NULL,
+    code varchar(20) NOT NULL,
+    name_np varchar(100) NOT NULL,
+    name_en varchar(100) NOT NULL,
+    short_name_np varchar(20),
+    short_name_en varchar(20),
+    color varchar(10),
+    symbol varchar(100),
+    created_at timestamp default now(), 
+    updated_at timestamp default now() on update now(),
+    PRIMARY KEY (id),
+    UNIQUE(code)
 );
 
 DROP VIEW if EXISTS ds_v_df_results;

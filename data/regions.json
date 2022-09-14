@@ -1,0 +1,1094 @@
+{
+  "provinces": [
+    {
+      "id": 1,
+      "name_np": "प्रदेश १",
+      "name_en": "Province 1",
+      "color": "#DFF6FF",
+      "districts": [
+        {
+          "id": "taplejung",
+          "name_en": "Taplejung",
+          "name_np": "ताप्लेजुङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "taplejung", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "taplejung", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "taplejung", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "panchthar",
+          "name_en": "Panchthar",
+          "name_np": "पाँचथर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "panchthar", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "panchthar", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "panchthar", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "illam",
+          "name_en": "Illam",
+          "name_np": "इलाम",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "illam", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "illam", "province_id": 1, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "illam", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "illam", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "illam", "province_id": 1, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "illam", "province_id": 1, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "jhapa",
+          "name_en": "Jhapa",
+          "name_np": "झापा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "jhapa", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "jhapa", "province_id": 1, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "jhapa", "province_id": 1, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "jhapa", "province_id": 1, "name_np": "४", "name_en": 4 },
+            { "id": 5, "rtype": "federal", "district_id": "jhapa", "province_id": 1, "name_np": "५", "name_en": 5 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "४(ख)", "name_en": 4.2 },
+            { "id": 5.1, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "५(क)", "name_en": 5.1 },
+            { "id": 5.2, "rtype": "provincial", "district_id": "jhapa", "province_id": 1, "name_np": "५(ख)", "name_en": 5.2 }
+          ]
+        },
+        {
+          "id": "morang",
+          "name_en": "Morang",
+          "name_np": "मोरङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "४", "name_en": 4 },
+            { "id": 5, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "५", "name_en": 5 },
+            { "id": 6, "rtype": "federal", "district_id": "morang", "province_id": 1, "name_np": "६", "name_en": 6 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "४(ख)", "name_en": 4.2 },
+            { "id": 5.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "५(क)", "name_en": 5.1 },
+            { "id": 5.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "५(ख)", "name_en": 5.2 },
+            { "id": 6.1, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "६(क)", "name_en": 6.1 },
+            { "id": 6.2, "rtype": "provincial", "district_id": "morang", "province_id": 1, "name_np": "६(ख)", "name_en": 6.2 }
+          ]
+        },
+        {
+          "id": "sunsari",
+          "name_en": "Sunsari",
+          "name_np": "सुनसरी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "sunsari", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "sunsari", "province_id": 1, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "sunsari", "province_id": 1, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "sunsari", "province_id": 1, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "sunsari", "province_id": 1, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "dhankuta",
+          "name_en": "Dhankuta",
+          "name_np": "धनकुटा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dhankuta", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dhankuta", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dhankuta", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "sankhuwasabha",
+          "name_en": "Sankhuwasabha",
+          "name_np": "संखुवासभा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "sankhuwasabha", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "sankhuwasabha", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "sankhuwasabha", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "bhojpur",
+          "name_en": "Bhojpur",
+          "name_np": "भोजपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bhojpur", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bhojpur", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bhojpur", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "terhathum",
+          "name_en": "Terhathum",
+          "name_np": "तेह्रथुम",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "terhathum", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "terhathum", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "terhathum", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "okhaldhunga",
+          "name_en": "Okhaldhunga",
+          "name_np": "ओखलढुंगा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "okhaldhunga", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "okhaldhunga", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "okhaldhunga", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "khotang",
+          "name_en": "Khotang",
+          "name_np": "खोटाङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "khotang", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "khotang", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "khotang", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "solukhumbu",
+          "name_en": "Solukhumbu",
+          "name_np": "सोलुखुम्बु",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "solukhumbu", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "solukhumbu", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "solukhumbu", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "udayapur",
+          "name_en": "Udayapur",
+          "name_np": "उदयपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "udayapur", "province_id": 1, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "udayapur", "province_id": 1, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "udayapur", "province_id": 1, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "udayapur", "province_id": 1, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "udayapur", "province_id": 1, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "udayapur", "province_id": 1, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_np": "मधेस प्रदेश",
+      "name_en": "Madhesh Pradesh",
+      "color": "#FF7C7C",
+      "districts": [
+        {
+          "id": "saptari",
+          "name_en": "Saptari",
+          "name_np": "सप्तरी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "saptari", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "saptari", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "saptari", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "saptari", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "saptari", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "siraha",
+          "name_en": "Siraha",
+          "name_np": "सिराहा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "siraha", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "siraha", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "siraha", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "siraha", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "siraha", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "dhanusa",
+          "name_en": "Dhanusa",
+          "name_np": "धनुषा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dhanusa", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "dhanusa", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "dhanusa", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "dhanusa", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "dhanusa", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "mahottari",
+          "name_en": "Mahottari",
+          "name_np": "महोत्तरी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "mahottari", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "mahottari", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "mahottari", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "mahottari", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "mahottari", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "sarlahi",
+          "name_en": "Sarlahi",
+          "name_np": "सर्लाही",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "sarlahi", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "sarlahi", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "sarlahi", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "sarlahi", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "sarlahi", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "rauthat",
+          "name_en": "Rauthat",
+          "name_np": "रौतहट",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rauthat", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "rauthat", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "rauthat", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "rauthat", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "rauthat", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "bara",
+          "name_en": "Bara",
+          "name_np": "वारा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bara", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "bara", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "bara", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "bara", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "bara", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        },
+        {
+          "id": "parsa",
+          "name_en": "Parsa",
+          "name_np": "पर्सा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "parsa", "province_id": 2, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "parsa", "province_id": 2, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "parsa", "province_id": 2, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "parsa", "province_id": 2, "name_np": "४", "name_en": 4 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "parsa", "province_id": 2, "name_np": "४(ख)", "name_en": 4.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_np": "बागमती प्रदेश",
+      "name_en": "Bagmati Promince",
+      "color": "#9ED2C6",
+      "districts": [
+        {
+          "id": "sindhuli",
+          "name_en": "Sindhuli",
+          "name_np": "सिन्धुली",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "sindhuli", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "sindhuli", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "sindhuli", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "sindhuli", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "sindhuli", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "sindhuli", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "ramechhap",
+          "name_en": "Ramechhap",
+          "name_np": "रामेछाप",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "ramechhap", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "ramechhap", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "ramechhap", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "dolkha",
+          "name_en": "Dolkha",
+          "name_np": "दोलखा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dolkha", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dolkha", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dolkha", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "sindhupalchowk",
+          "name_en": "Sindhupalchowk",
+          "name_np": "सिन्धुपाल्चोक",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "sindhupalchowk", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "kavrepalanchowk",
+          "name_en": "Kavrepalanchowk",
+          "name_np": "काभ्रेपलान्चोक",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kavrepalanchowk", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "lalitpur",
+          "name_en": "Lalitpur",
+          "name_np": "ललितपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "lalitpur", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "lalitpur", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "lalitpur", "province_id": 3, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "lalitpur", "province_id": 3, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "bhaktapur",
+          "name_en": "Bhaktapur",
+          "name_np": "भक्तपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bhaktapur", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "bhaktapur", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bhaktapur", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bhaktapur", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "bhaktapur", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "bhaktapur", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "kathmandu",
+          "name_en": "Kathmandu",
+          "name_np": "काठमाण्डौ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "४", "name_en": 4 },
+            { "id": 5, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "५", "name_en": 5 },
+            { "id": 6, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "६", "name_en": 6 },
+            { "id": 7, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "७", "name_en": 7 },
+            { "id": 8, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "८", "name_en": 8 },
+            { "id": 9, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "९", "name_en": 9 },
+            { "id": 10, "rtype": "federal", "district_id": "kathmandu", "province_id": 3, "name_np": "१०", "name_en": 10 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "४(ख)", "name_en": 4.2 },
+            { "id": 5.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "५(क)", "name_en": 5.1 },
+            { "id": 5.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "५(ख)", "name_en": 5.2 },
+            { "id": 6.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "६(क)", "name_en": 6.1 },
+            { "id": 6.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "६(ख)", "name_en": 6.2 },
+            { "id": 7.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "७(क)", "name_en": 7.1 },
+            { "id": 7.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "७(ख)", "name_en": 7.2 },
+            { "id": 8.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "८(क)", "name_en": 8.1 },
+            { "id": 8.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "८(ख)", "name_en": 8.2 },
+            { "id": 9.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "९(क)", "name_en": 9.1 },
+            { "id": 9.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "९(ख)", "name_en": 9.2 },
+            { "id": 10.1, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "१०(क)", "name_en": 10.1 },
+            { "id": 10.2, "rtype": "provincial", "district_id": "kathmandu", "province_id": 3, "name_np": "१०(ख)", "name_en": 10.2 }
+          ]
+        },
+        {
+          "id": "nuwakot",
+          "name_en": "Nuwakot",
+          "name_np": "नुवाकोट",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "nuwakot", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "nuwakot", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "nuwakot", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "nuwakot", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "nuwakot", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "nuwakot", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "rasuwa",
+          "name_en": "Rasuwa",
+          "name_np": "रसुवा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rasuwa", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rasuwa", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rasuwa", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "dhading",
+          "name_en": "Dhading",
+          "name_np": "धादिङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dhading", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "dhading", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dhading", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dhading", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "dhading", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "dhading", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "makwanpur",
+          "name_en": "Makwanpur",
+          "name_np": "मकवानपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "makwanpur", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "makwanpur", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "makwanpur", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "makwanpur", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "makwanpur", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "makwanpur", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "chitwan",
+          "name_en": "Chitwan",
+          "name_np": "चितवन",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "chitwan", "province_id": 3, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "chitwan", "province_id": 3, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "chitwan", "province_id": 3, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "chitwan", "province_id": 3, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_np": "गण्डकी प्रदेश",
+      "name_en": "Gandaki Province",
+      "color": "#C0B236",
+      "districts": [
+        {
+          "id": "gorkha",
+          "name_en": "Gorkha",
+          "name_np": "गोरखा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "gorkha", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "gorkha", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "gorkha", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "gorkha", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "gorkha", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "gorkha", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "lamjung",
+          "name_en": "Lamjung",
+          "name_np": "लमजुङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "lamjung", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "lamjung", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "lamjung", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "tanahun",
+          "name_en": "Tanahun",
+          "name_np": "तनहुँ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "tanahun", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "tanahun", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "tanahun", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "tanahun", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "tanahun", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "tanahun", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "syangja",
+          "name_en": "Syangja",
+          "name_np": "स्याङजा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "syangja", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "syangja", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "syangja", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "syangja", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "syangja", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "syangja", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "kaski",
+          "name_en": "Kaski",
+          "name_np": "कास्की",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kaski", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kaski", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "kaski", "province_id": 4, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "kaski", "province_id": 4, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "manang",
+          "name_en": "Manang",
+          "name_np": "मनाङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "manang", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "manang", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "manang", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "mustang",
+          "name_en": "Mustang",
+          "name_np": "मुस्ताङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "mustang", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "mustang", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "mustang", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "parbat",
+          "name_en": "Parbat",
+          "name_np": "पर्वत",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "parbat", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "parbat", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "parbat", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "myagdi",
+          "name_en": "Myagdi",
+          "name_np": "म्याग्दी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "myagdi", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "myagdi", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "myagdi", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "baglung",
+          "name_en": "Baglung",
+          "name_np": "वाग्लुङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "baglung", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "baglung", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "baglung", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "baglung", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "baglung", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "baglung", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "nawalparasieast",
+          "name_en": "Nawalparasi East",
+          "name_np": "नवलपरासी पूर्व",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "nawalparasieast", "province_id": 4, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "nawalparasieast", "province_id": 4, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "nawalparasieast", "province_id": 4, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "nawalparasieast", "province_id": 4, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "nawalparasieast", "province_id": 4, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "nawalparasieast", "province_id": 4, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_np": "लुम्बिनी प्रदेश",
+      "name_en": "Lumbini Province",
+      "color": "#AFB4FF",
+      "districts": [
+        {
+          "id": "gulmi",
+          "name_en": "Gulmi",
+          "name_np": "गुल्मी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "gulmi", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "gulmi", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "gulmi", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "gulmi", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "gulmi", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "gulmi", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "palpa",
+          "name_en": "Palpa",
+          "name_np": "पाल्पा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "palpa", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "palpa", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "palpa", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "palpa", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "palpa", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "palpa", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "rupandehi",
+          "name_en": "Rupandehi",
+          "name_np": "रुपन्देही",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rupandehi", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "rupandehi", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "rupandehi", "province_id": 5, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "rupandehi", "province_id": 5, "name_np": "४", "name_en": 4 },
+            { "id": 5, "rtype": "federal", "district_id": "rupandehi", "province_id": 5, "name_np": "५", "name_en": 5 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "४(ख)", "name_en": 4.2 },
+            { "id": 5.1, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "५(क)", "name_en": 5.1 },
+            { "id": 5.2, "rtype": "provincial", "district_id": "rupandehi", "province_id": 5, "name_np": "५(ख)", "name_en": 5.2 }
+          ]
+        },
+        {
+          "id": "arghakhanchi",
+          "name_en": "Arghakhanchi",
+          "name_np": "अर्घाखाँची",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "arghakhanchi", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "arghakhanchi", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "arghakhanchi", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "kapilvastu",
+          "name_en": "Kapilvastu",
+          "name_np": "कपिलवस्तु",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kapilvastu", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kapilvastu", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "kapilvastu", "province_id": 5, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "kapilvastu", "province_id": 5, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "pyuthan",
+          "name_en": "Pyuthan",
+          "name_np": "प्यूठान",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "pyuthan", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "pyuthan", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "pyuthan", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "rolpa",
+          "name_en": "Rolpa",
+          "name_np": "रोल्पा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rolpa", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rolpa", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rolpa", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "dang",
+          "name_en": "Dang",
+          "name_np": "दाङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dang", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "dang", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "dang", "province_id": 5, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "dang", "province_id": 5, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "bardiya",
+          "name_en": "Bardiya",
+          "name_np": "बर्दिया",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bardiya", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "bardiya", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bardiya", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bardiya", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "bardiya", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "bardiya", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "banke",
+          "name_en": "Banke",
+          "name_np": "बाँके",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "banke", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "banke", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "banke", "province_id": 5, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "banke", "province_id": 5, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "nawalparasiwest",
+          "name_en": "Nawalparasi West",
+          "name_np": "नवलपरासी पश्चिम",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "nawalparasiwest", "province_id": 5, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "rukumeast",
+          "name_en": "Rukum East",
+          "name_np": "रुकुम पूर्व",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rukumeast", "province_id": 5, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rukumeast", "province_id": 5, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rukumeast", "province_id": 5, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name_np": "कर्णाली प्रदेश",
+      "name_en": "Karnali Province",
+      "color": "#F5E4BA",
+      "districts": [
+        {
+          "id": "rukumwest",
+          "name_en": "Rukum West",
+          "name_np": "रुकुम पश्चिम",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "rukumwest", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "rukumwest", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "rukumwest", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "salyan",
+          "name_en": "Salyan",
+          "name_np": "सल्यान",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "salyan", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "salyan", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "salyan", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "surkhet",
+          "name_en": "Surkhet",
+          "name_np": "सुर्खेत",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "surkhet", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "surkhet", "province_id": 6, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "surkhet", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "surkhet", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "surkhet", "province_id": 6, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "surkhet", "province_id": 6, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "dailekh",
+          "name_en": "Dailekh",
+          "name_np": "दैलेख",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dailekh", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "dailekh", "province_id": 6, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dailekh", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dailekh", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "dailekh", "province_id": 6, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "dailekh", "province_id": 6, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "jajarkot",
+          "name_en": "Jajarkot",
+          "name_np": "जाजरकोट",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "jajarkot", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "jajarkot", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "jajarkot", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "dolpa",
+          "name_en": "Dolpa",
+          "name_np": "डोल्पा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dolpa", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dolpa", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dolpa", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "humla",
+          "name_en": "Humla",
+          "name_np": "हुम्ला",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "humla", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "humla", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "humla", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "kalikot",
+          "name_en": "Kalikot",
+          "name_np": "कालिकोट",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kalikot", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kalikot", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kalikot", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "mugu",
+          "name_en": "Mugu",
+          "name_np": "मुगू",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "mugu", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "mugu", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "mugu", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "jumla",
+          "name_en": "Jumla",
+          "name_np": "जुम्ला",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "jumla", "province_id": 6, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "jumla", "province_id": 6, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "jumla", "province_id": 6, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name_np": "सुदूरपश्चिम प्रदेश",
+      "name_en": "Sudur Pashchim Province",
+      "color": "#E3C770",
+      "districts": [
+        {
+          "id": "bajura",
+          "name_en": "Bajura",
+          "name_np": "बाजुरा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bajura", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bajura", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bajura", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "bajhang",
+          "name_en": "Bajhang",
+          "name_np": "बझाङ",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "bajhang", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "bajhang", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "bajhang", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "achham",
+          "name_en": "Achham",
+          "name_np": "अछाम",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "achham", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "achham", "province_id": 7, "name_np": "२", "name_en": 2 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "achham", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "achham", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "achham", "province_id": 7, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "achham", "province_id": 7, "name_np": "२(ख)", "name_en": 2.2 }
+          ]
+        },
+        {
+          "id": "doti",
+          "name_en": "Doti",
+          "name_np": "डोटी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "doti", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "doti", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "doti", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "kailali",
+          "name_en": "Kailali",
+          "name_np": "कैलाली",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kailali", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kailali", "province_id": 7, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "kailali", "province_id": 7, "name_np": "३", "name_en": 3 },
+            { "id": 4, "rtype": "federal", "district_id": "kailali", "province_id": 7, "name_np": "४", "name_en": 4 },
+            { "id": 5, "rtype": "federal", "district_id": "kailali", "province_id": 7, "name_np": "५", "name_en": 5 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "३(ख)", "name_en": 3.2 },
+            { "id": 4.1, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "४(क)", "name_en": 4.1 },
+            { "id": 4.2, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "४(ख)", "name_en": 4.2 },
+            { "id": 5.1, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "५(क)", "name_en": 5.1 },
+            { "id": 5.2, "rtype": "provincial", "district_id": "kailali", "province_id": 7, "name_np": "५(ख)", "name_en": 5.2 }
+          ]
+        },
+        {
+          "id": "kanchanpur",
+          "name_en": "Kanchanpur",
+          "name_np": "कंचनपुर",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "kanchanpur", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 2, "rtype": "federal", "district_id": "kanchanpur", "province_id": 7, "name_np": "२", "name_en": 2 },
+            { "id": 3, "rtype": "federal", "district_id": "kanchanpur", "province_id": 7, "name_np": "३", "name_en": 3 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 },
+            { "id": 2.1, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "२(क)", "name_en": 2.1 },
+            { "id": 2.2, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "२(ख)", "name_en": 2.2 },
+            { "id": 3.1, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "३(क)", "name_en": 3.1 },
+            { "id": 3.2, "rtype": "provincial", "district_id": "kanchanpur", "province_id": 7, "name_np": "३(ख)", "name_en": 3.2 }
+          ]
+        },
+        {
+          "id": "dadeldhura",
+          "name_en": "Dadeldhura",
+          "name_np": "डडेल्धुरा",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "dadeldhura", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "dadeldhura", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "dadeldhura", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "baitadi",
+          "name_en": "Baitadi",
+          "name_np": "बैतडी",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "baitadi", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "baitadi", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "baitadi", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        },
+        {
+          "id": "darchula",
+          "name_en": "Darchula",
+          "name_np": "दार्चुला",
+          "regions": [
+            { "id": 1, "rtype": "federal", "district_id": "darchula", "province_id": 7, "name_np": "१", "name_en": 1 },
+            { "id": 1.1, "rtype": "provincial", "district_id": "darchula", "province_id": 7, "name_np": "१(क)", "name_en": 1.1 },
+            { "id": 1.2, "rtype": "provincial", "district_id": "darchula", "province_id": 7, "name_np": "१(ख)", "name_en": 1.2 }
+          ]
+        }
+      ]
+    }
+  ]
+}
