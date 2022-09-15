@@ -78,8 +78,8 @@ CREATE TABLE IF NOT EXISTS ds_election_parties (
     code varchar(20) NOT NULL,
     name_np varchar(100) NOT NULL,
     name_en varchar(100) NOT NULL,
-    short_name_np varchar(20),
-    short_name_en varchar(20),
+    short_name_np varchar(100),
+    short_name_en varchar(100),
     color varchar(10),
     symbol varchar(100),
     created_at timestamp default now(), 
@@ -88,18 +88,25 @@ CREATE TABLE IF NOT EXISTS ds_election_parties (
     UNIQUE(code)
 );
 
-DROP VIEW if EXISTS ds_v_df_results;
-DROP VIEW if EXISTS ds_v_pf_results;
-DROP VIEW if EXISTS ds_v_federal_results;
+DROP VIEW IF EXISTS ds_v_df_results;
+DROP VIEW IF EXISTS ds_v_pf_results;
+DROP VIEW IF EXISTS ds_v_federal_results;
 
-CREATE VIEW ds_v_df_results as SELECT province_id,  district_id, json_object('id', ROUND(region_id,  0), 'declared', declared, 'result',result,'elected', elected) as regions FROM ds_election_fresults;
-CREATE VIEW ds_v_pf_results as SELECT province_id, json_object('id', district_id, 'regions', JSON_ARRAYAGG(regions)) as districts from ds_v_df_results GROUP by province_id, district_id;
-CREATE VIEW ds_v_federal_results as SELECT JSON_ARRAYAGG(districts) as provinces from ds_v_pf_results GROUP by province_id;
+CREATE VIEW ds_v_df_results AS SELECT province_id,  district_id, json_object('id', ROUND(region_id,  0), 'declared', declared, 'result',result,'elected', elected) AS regions FROM ds_election_fresults;
+CREATE VIEW ds_v_pf_results AS SELECT province_id, json_object('id', district_id, 'regions', JSON_ARRAYAGG(regions)) AS districts from ds_v_df_results GROUP by province_id, district_id;
+CREATE VIEW ds_v_federal_results AS SELECT JSON_ARRAYAGG(districts) AS provinces from ds_v_pf_results GROUP by province_id;
 
 
-DROP VIEW if EXISTS ds_v_dp_results;
-DROP VIEW if EXISTS ds_v_pp_results;
-DROP VIEW if EXISTS ds_v_provincial_results;
-CREATE VIEW ds_v_dp_results as SELECT province_id,  district_id, json_object('id', ROUND(region_id, 1), 'declared', declared, 'result',result,'elected', elected) as regions FROM ds_election_presults;
-CREATE VIEW ds_v_pp_results as SELECT province_id, json_object('id', district_id, 'regions', JSON_ARRAYAGG(regions)) as districts from ds_v_dp_results GROUP by province_id, district_id;
-CREATE VIEW ds_v_provincial_results as SELECT JSON_ARRAYAGG(districts) as provinces from ds_v_pp_results GROUP by province_id;
+DROP VIEW IF EXISTS ds_v_dp_results;
+DROP VIEW IF EXISTS ds_v_pp_results;
+DROP VIEW IF EXISTS ds_v_provincial_results;
+CREATE VIEW ds_v_dp_results AS SELECT province_id,  district_id, json_object('id', ROUND(region_id, 1), 'declared', declared, 'result',result,'elected', elected) AS regions FROM ds_election_presults;
+CREATE VIEW ds_v_pp_results AS SELECT province_id, json_object('id', district_id, 'regions', JSON_ARRAYAGG(regions)) AS districts from ds_v_dp_results GROUP by province_id, district_id;
+CREATE VIEW ds_v_provincial_results AS SELECT JSON_ARRAYAGG(districts) AS provinces from ds_v_pp_results GROUP by province_id;
+
+
+DROP VIEW IF EXISTS ds_v_district_regions;
+DROP VIEW IF EXISTS ds_v_province_district_regions;
+
+CREATE view ds_v_district_regions AS SELECT d.province_id, d.district_id, d.name_np, d.name_en, d.total_fregions, d.total_pregions, JSON_ARRAYAGG(JSON_OBJECT("id", r.region_id, "rtype", r.rtype, "name_np", r.name_np, "name_en", r.name_en)) AS "regions" FROM ds_election_districts d, ds_election_regions r WHERE r.district_id = d.district_id GROUP BY d.district_id ORDER by d.id;
+CREATE VIEW ds_v_province_district_regions AS SELECT p.province_id, p.name_np, p.name_en, p.color, JSON_ARRAYAGG(JSON_OBJECT("id", dr.district_id, "name_np", dr.name_np, "name_en", dr.name_en, "total_fregion", dr.total_fregions, "total_pregion", dr.total_pregions, "regions", dr.regions)) AS "districts" FROM ds_election_provinces p, ds_v_district_regions dr WHERE p.province_id = dr.province_id GROUP BY p.province_id;

@@ -6,3 +6,4 @@ include
 .vscode
 docker-compose.yml
 Scripts
+core/settings.py

@@ -1,33 +1,22 @@
-from unittest import result
-from fastapi import Request, Depends, APIRouter, Depends, Header, HTTPException
+from fastapi import Depends, APIRouter, Depends
 from sqlalchemy.orm import Session
-from fastapi.responses import HTMLResponse
 
-# import v1.dependencies.dependencies as dependencies
-from core.models.models import ElectionFResult, ElectionPResult
+import v1.dependencies.dependencies as dependencies
 from core.models import models
 
 import json
 
 router = APIRouter(
     prefix="/api/v1/result",
-    tags=["central", "province"],
+    tags=["federal", "provincial"],
     #    dependencies=[Depends(dependencies.get_token_header)],
     responses={404: {
         "description": "Not found"
     }})
 
-from core.models.database import SessionLocal, engine
+from core.models.database import engine
 
 models.Base.metadata.create_all(bind=engine)
-
-
-def get_database_session():
-  try:
-    db = SessionLocal()
-    yield db
-  finally:
-    db.close()
 
 
 # @router.get("/{type}")
@@ -73,7 +62,7 @@ def get_database_session():
 
 
 @router.get("/{type}")
-async def fetch_results(request: Request, db: Session = Depends(get_database_session)):
+async def fetch_results(db: Session = Depends(dependencies.get_database_session)):
   fprovinces = db.execute("select provinces from ds_v_federal_results")
   pprovinces = db.execute("select provinces from ds_v_provincial_results")
   federal = {"provinces": []}
