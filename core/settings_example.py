@@ -1,10 +1,8 @@
-DATABASE_HOST = '127.0.0.1'
-DATABASE_PORT = 3306
-DATABASE_USER = 'root'
-DATABASE_PASSWORD = ''
-DATABASE_NAME = 'deshsanchar'
+DATABASE_HOST = 'db_host'
+DATABASE_PORT = 'dbport' or 3306
+DATABASE_USER = 'db_user'
+DATABASE_PASSWORD = 'db_pass'
+DATABASE_NAME = 'db_name'
 ALLOWED_ORIGINS = [
-    "http://localhost:3001",
-    "http://localhost:3333",
-    "https://saroj.el369.javra.com",
+    "http://localhost:3000",
 ]
