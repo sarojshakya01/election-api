@@ -51,7 +51,8 @@ CREATE TABLE IF NOT EXISTS ds_election_fresults (
     elected JSON,
     created_at timestamp default now(), 
     updated_at timestamp default now() on update now(),
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    UNIQUE(province_id, district_id, region_id)
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id),
     -- FOREIGN KEY (district_id) REFERENCES ds_election_districts(district_id)
 );
@@ -67,7 +68,8 @@ CREATE TABLE IF NOT EXISTS ds_election_presults (
     elected JSON,
     created_at timestamp default now(), 
     updated_at timestamp default now() on update now(),
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
+    UNIQUE(province_id, district_id, region_id)
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id),
     -- FOREIGN KEY (district_id) REFERENCES ds_election_districts(district_id)
 );
