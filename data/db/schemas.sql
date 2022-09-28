@@ -88,6 +88,24 @@ CREATE TABLE IF NOT EXISTS ds_election_parties (
     UNIQUE(code)
 );
 
+CREATE TABLE IF NOT EXISTS ds_election_candidates (
+    id int NOT NULL AUTO_INCREMENT,
+    rtype ENUM ('federal','provincial') NOT NULL default "federal",
+    province_id int NOT NULL,
+    district_id varchar(50) NOT NULL,
+    region_id float NOT NULL,
+    name_np varchar(100) NOT NULL,
+    name_en varchar(100) NOT NULL,
+    party_code varchar(20) NOT NULL,
+    vote int NOT NULL,
+    elected boolean NOT NULL default false,
+    descriptions text,
+    created_at timestamp default now(), 
+    updated_at timestamp default now() on update now(),
+    PRIMARY KEY (id),
+    UNIQUE(rtype, province_id, district_id, region_id, party_code)
+)
+
 DROP VIEW IF EXISTS ds_v_df_results;
 DROP VIEW IF EXISTS ds_v_pf_results;
 DROP VIEW IF EXISTS ds_v_federal_results;

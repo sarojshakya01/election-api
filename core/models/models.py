@@ -117,6 +117,43 @@ class Party(Base):
     def as_dict(self):
        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
+class Candidate(Base):
+    __tablename__ = "ds_election_candidates"
+    id = Column(Integer, primary_key=True, index=True)
+    rtype = Column(
+        Enum('federal', 'provincial'),
+        default='federal',
+        nullable=False
+    )
+    province_id = Column(
+        Integer,
+        ForeignKey("provinces.province_id"),
+        nullable=False,
+    )
+    district_id = Column(
+        String(50),
+        ForeignKey("districts.district_id"),
+        nullable=False)
+    region_id = Column(
+        Integer,
+        index=True,
+        nullable=False,
+    )
+    name_np = Column(String(100), nullable=False)
+    name_en = Column(String(100), nullable=False)
+    party_code = Column(String(20), nullable=False)
+    vote = Column(
+        Integer,
+        nullable=False,
+    )
+    elected = Column(Boolean, default=False)
+    descriptions = Column(String)
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+
+    def as_dict(self):
+       return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
 
 
 class FederalResult(View):
