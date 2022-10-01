@@ -1,4 +1,4 @@
-from fastapi import Depends, APIRouter, Depends
+from fastapi import Depends, APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 import v1.dependencies.dependencies as dependencies
@@ -17,7 +17,6 @@ router = APIRouter(
 from core.models.database import engine
 
 models.Base.metadata.create_all(bind=engine)
-
 
 # @router.get("/{type}")
 # async def get_result(type: str):
@@ -62,19 +61,45 @@ models.Base.metadata.create_all(bind=engine)
 
 
 @router.get("/{type}")
-async def fetch_results(db: Session = Depends(dependencies.get_database_session)):
-  fprovinces = db.execute("select provinces from ds_v_federal_results")
-  pprovinces = db.execute("select provinces from ds_v_provincial_results")
-  federal = {"provinces": []}
-  provincial = {"provinces": []}
-  count = 1
-  for row in fprovinces:
-    prov = {"id": count, "districts": json.loads(row[0])}
-    federal["provinces"].append(prov)
-    count = count + 1
-  count = 1
-  for row in pprovinces:
-    prov = {"id": count, "districts": json.loads(row[0])}
-    count = count + 1
-    provincial["provinces"].append(prov)
-  return {"data": [{"federal": federal, "provincial": provincial}], "message": "Data Read Successfully", "status": "OK"}
+async def fetch_results(type: str,
+                        db: Session = Depends(
+                            dependencies.get_database_session)):
+    if type == 'all':
+        fprovinces = db.execute("select provinces from ds_v_federal_results")
+        pprovinces = db.execute(
+            "select provinces from ds_v_provincial_results")
+        federal = {"provinces": []}
+        provincial = {"provinces": []}
+        count = 1
+        for row in fprovinces:
+            prov = {"id": count, "districts": json.loads(row[0])}
+            federal["provinces"].append(prov)
+            count = count + 1
+        count = 1
+        for row in pprovinces:
+            prov = {"id": count, "districts": json.loads(row[0])}
+            count = count + 1
+            provincial["provinces"].append(prov)
+        return {
+            "data": [{
+                "federal": federal,
+                "provincial": provincial
+            }],
+            "message": "Data Read Successfully",
+            "status": "OK"
+        }
+    elif type == 'proportional':
+        with open("data/proportional.json") as stream:
+            result = json.load(stream)
+        return {
+            "data": result["data"],
+            "message": "Data Read Successfully",
+            "status": "OK"
+        }
+    else:
+        raise HTTPException(status_code=404,
+                            detail={
+                                "data": [],
+                                "message": "Bad Request",
+                                "status": "FAILED"
+                            })
