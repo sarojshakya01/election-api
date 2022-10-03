@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS ds_election_provinces;
 CREATE TABLE IF NOT EXISTS ds_election_provinces (
     id int NOT NULL AUTO_INCREMENT,
     province_id int NOT NULL,
@@ -10,6 +11,7 @@ CREATE TABLE IF NOT EXISTS ds_election_provinces (
     UNIQUE(province_id)
 );
 
+DROP TABLE IF EXISTS ds_election_districts;
 CREATE TABLE IF NOT EXISTS ds_election_districts (
     id int NOT NULL AUTO_INCREMENT,
     district_id varchar(50) NOT NULL,
@@ -25,6 +27,7 @@ CREATE TABLE IF NOT EXISTS ds_election_districts (
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id)
 );
 
+DROP TABLE IF EXISTS ds_election_regions;
 CREATE TABLE IF NOT EXISTS ds_election_regions (
     id int NOT NULL AUTO_INCREMENT,
     region_id float NOT NULL,
@@ -40,6 +43,7 @@ CREATE TABLE IF NOT EXISTS ds_election_regions (
     -- FOREIGN KEY (province_id) REFERENCES ds_election_provinces(province_id)
 );
 
+DROP TABLE IF EXISTS ds_election_fresults;
 CREATE TABLE IF NOT EXISTS ds_election_fresults (
     id bigint NOT NULL AUTO_INCREMENT,
     province_id int NOT NULL,
@@ -57,6 +61,7 @@ CREATE TABLE IF NOT EXISTS ds_election_fresults (
     -- FOREIGN KEY (district_id) REFERENCES ds_election_districts(district_id)
 );
 
+DROP TABLE IF EXISTS ds_election_presults;
 CREATE TABLE IF NOT EXISTS ds_election_presults (
     id bigint NOT NULL AUTO_INCREMENT,
     province_id int NOT NULL,
@@ -74,6 +79,7 @@ CREATE TABLE IF NOT EXISTS ds_election_presults (
     -- FOREIGN KEY (district_id) REFERENCES ds_election_districts(district_id)
 );
 
+DROP TABLE IF EXISTS ds_election_parties;
 CREATE TABLE IF NOT EXISTS ds_election_parties (
     id int NOT NULL AUTO_INCREMENT,
     party_id int NOT NULL,
@@ -90,6 +96,7 @@ CREATE TABLE IF NOT EXISTS ds_election_parties (
     UNIQUE(code)
 );
 
+DROP TABLE IF EXISTS ds_election_candidates;
 CREATE TABLE IF NOT EXISTS ds_election_candidates (
     id int NOT NULL AUTO_INCREMENT,
     rtype ENUM ('federal','provincial') NOT NULL default "federal",
@@ -106,6 +113,17 @@ CREATE TABLE IF NOT EXISTS ds_election_candidates (
     updated_at timestamp default now() on update now(),
     PRIMARY KEY (id),
     UNIQUE(rtype, province_id, district_id, region_id, party_code)
+)
+
+DROP TABLE IF EXISTS ds_election_pr_results;
+CREATE TABLE IF NOT EXISTS ds_election_pr_results (
+    id int NOT NULL AUTO_INCREMENT,
+    party_code varchar(20) NOT NULL,
+    vote int NOT NULL,
+    created_at timestamp default now(), 
+    updated_at timestamp default now() on update now(),
+    PRIMARY KEY (id),
+    UNIQUE(party_code)
 )
 
 DROP VIEW IF EXISTS ds_v_df_results;

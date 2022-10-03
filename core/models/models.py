@@ -9,17 +9,16 @@ from .database import Base
 class View(Table):
     is_view = True
 
+
 class ElectionFResult(Base):
     __tablename__ = "ds_election_fresults"
     id = Column(Integer, primary_key=True, index=True)
     province_id = Column(Integer, nullable=False)
     district_id = Column(String(50), nullable=False)
     region_id = Column(Float, nullable=False)
-    rtype = Column(
-        Enum('federal', 'provincial'),
-        default='federal',
-        nullable=False
-    )
+    rtype = Column(Enum('federal', 'provincial'),
+                   default='federal',
+                   nullable=False)
     declared = Column(Boolean, default=False)
     result = Column(JSON)
     elected = Column(JSON)
@@ -33,11 +32,9 @@ class ElectionPResult(Base):
     province_id = Column(Integer, nullable=False)
     district_id = Column(String(50), nullable=False)
     region_id = Column(Float, nullable=False)
-    rtype = Column(
-        Enum('federal', 'provincial'),
-        default='federal',
-        nullable=False
-    )
+    rtype = Column(Enum('federal', 'provincial'),
+                   default='federal',
+                   nullable=False)
     declared = Column(Boolean, default=False)
     result = Column(JSON)
     elected = Column(JSON)
@@ -53,25 +50,23 @@ class Region(Base):
         index=True,
         nullable=False,
     )
-    district_id = Column(
-        String(50),
-        ForeignKey("districts.district_id"),
-        nullable=False)
+    district_id = Column(String(50),
+                         ForeignKey("districts.district_id"),
+                         nullable=False)
     province_id = Column(
         Integer,
         ForeignKey("provinces.province_id"),
         nullable=False,
     )
-    rtype = Column(
-        Enum('federal', 'provincial'),
-        default='federal',
-        nullable=False
-    )
+    rtype = Column(Enum('federal', 'provincial'),
+                   default='federal',
+                   nullable=False)
 
     name_np = Column(String(100), nullable=False)
     name_en = Column(String(100), nullable=False)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+
 
 class District(Base):
     __tablename__ = "ds_election_districts"
@@ -100,6 +95,7 @@ class Province(Base):
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
+
 class Party(Base):
     __tablename__ = "ds_election_parties"
     id = Column(Integer, primary_key=True, index=True)
@@ -115,25 +111,23 @@ class Party(Base):
     created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
     def as_dict(self):
-       return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
 
 class Candidate(Base):
     __tablename__ = "ds_election_candidates"
     id = Column(Integer, primary_key=True, index=True)
-    rtype = Column(
-        Enum('federal', 'provincial'),
-        default='federal',
-        nullable=False
-    )
+    rtype = Column(Enum('federal', 'provincial'),
+                   default='federal',
+                   nullable=False)
     province_id = Column(
         Integer,
         ForeignKey("provinces.province_id"),
         nullable=False,
     )
-    district_id = Column(
-        String(50),
-        ForeignKey("districts.district_id"),
-        nullable=False)
+    district_id = Column(String(50),
+                         ForeignKey("districts.district_id"),
+                         nullable=False)
     region_id = Column(
         Integer,
         index=True,
@@ -152,8 +146,19 @@ class Candidate(Base):
     created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
     def as_dict(self):
-       return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
+
+class PRResult(Base):
+    __tablename__ = "ds_election_pr_results"
+    id = Column(Integer, primary_key=True, index=True)
+    party_code = Column(String(20), nullable=False)
+    vote = Column(Integer)
+    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 
 
 class FederalResult(View):

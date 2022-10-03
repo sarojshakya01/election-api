@@ -89,13 +89,17 @@ async def fetch_results(type: str,
             "status": "OK"
         }
     elif type == 'proportional':
-        with open("data/proportional.json") as stream:
-            result = json.load(stream)
+        pr_results = db.query(models.PRResult).all()
+        data = []
+        for p in pr_results:
+            d = {"id": p.id, "party": p.party_code, "vote": p.vote}
+            data.append(d)
         return {
-            "data": result["data"],
+            "data": data,
             "message": "Data Read Successfully",
             "status": "OK"
         }
+
     else:
         raise HTTPException(status_code=404,
                             detail={
