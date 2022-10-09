@@ -23,7 +23,7 @@ class ElectionFResult(Base):
     result = Column(JSON)
     elected = Column(JSON)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
 
 class ElectionPResult(Base):
@@ -39,7 +39,7 @@ class ElectionPResult(Base):
     result = Column(JSON)
     elected = Column(JSON)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
 
 class Region(Base):
@@ -65,7 +65,7 @@ class Region(Base):
     name_np = Column(String(100), nullable=False)
     name_en = Column(String(100), nullable=False)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
 
 class District(Base):
@@ -82,7 +82,7 @@ class District(Base):
     total_fregions = Column(Integer, nullable=False)
     total_pregions = Column(Integer, nullable=False)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
 
 class Province(Base):
@@ -93,7 +93,7 @@ class Province(Base):
     name_en = Column(String(100), nullable=False)
     color = Column(String(10), nullable=False)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
 
 class Party(Base):
@@ -108,7 +108,7 @@ class Party(Base):
     color = Column(String(10))
     symbol = Column(String(100))
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
     def as_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
@@ -152,7 +152,7 @@ class Candidate(Base):
                                     nullable=False)
     descriptions = Column(String)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
     def as_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
@@ -164,7 +164,7 @@ class PRResult(Base):
     party_code = Column(String(20), nullable=False)
     vote = Column(Integer)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
-    created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
+    updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 
     def as_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
