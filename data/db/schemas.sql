@@ -108,10 +108,10 @@ CREATE TABLE IF NOT EXISTS ds_election_candidates (
     party_code varchar(20) NOT NULL,
     vote int NOT NULL,
     elected boolean NOT NULL default false,
-    age int,
+    birthday date,
     gender varchar(1),
-    ethnic varchar(50),
-    religion varchar(50),
+    ethnic_group varchar(50),
+    academic_qualification ENUM ('below_primary', 'primary', 'lower_secondary', 'secondary', 'higher_secondary', 'intermediate', 'bachelor', 'master', 'mphil', 'phd') NOT NULL default "below_primary",
     descriptions text,
     created_at timestamp default now(), 
     updated_at timestamp default now() on update now(),
@@ -150,5 +150,5 @@ CREATE VIEW ds_v_provincial_results AS SELECT JSON_ARRAYAGG(districts) AS provin
 DROP VIEW IF EXISTS ds_v_district_regions;
 DROP VIEW IF EXISTS ds_v_province_district_regions;
 
-CREATE view ds_v_district_regions AS SELECT d.province_id, d.district_id, d.name_np, d.name_en, d.total_fregions, d.total_pregions, JSON_ARRAYAGG(JSON_OBJECT("id", r.region_id, "rtype", r.rtype, "name_np", r.name_np, "name_en", r.name_en)) AS "regions" FROM ds_election_districts d, ds_election_regions r WHERE r.district_id = d.district_id GROUP BY d.district_id ORDER by d.id;
+CREATE view ds_v_district_regions AS SELECT d.province_id, d.district_id, d.name_np, d.name_en, d.total_fregions, d.total_pregions, JSON_ARRAYAGG(JSON_OBJECT("id", ROUND(r.region_id, 1), "rtype", r.rtype, "name_np", r.name_np, "name_en", r.name_en)) AS "regions" FROM ds_election_districts d, ds_election_regions r WHERE r.district_id = d.district_id GROUP BY d.district_id ORDER by d.id;
 CREATE VIEW ds_v_province_district_regions AS SELECT p.province_id, p.name_np, p.name_en, p.color, JSON_ARRAYAGG(JSON_OBJECT("id", dr.district_id, "name_np", dr.name_np, "name_en", dr.name_en, "total_fregion", dr.total_fregions, "total_pregion", dr.total_pregions, "regions", dr.regions)) AS "districts" FROM ds_election_provinces p, ds_v_district_regions dr WHERE p.province_id = dr.province_id GROUP BY p.province_id;

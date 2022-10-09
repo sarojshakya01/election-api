@@ -15,26 +15,13 @@ router = APIRouter(
 
 
 @router.get("/all")
-async def get_parties(db: Session = Depends(
+async def get_candidates(db: Session = Depends(
     dependencies.get_database_session)):
     try:
         result = db.query(Candidate).all()
         data = []
         for c in result:
-            d = {
-                "id": c.id,
-                "rtype": c.rtype,
-                "region_id": c.region_id,
-                "district_id": c.district_id,
-                "province_id": c.province_id,
-                "party_code": c.party_code,
-                "name_np": c.name_np,
-                "name_en": c.name_en,
-                "vote": c.vote,
-                "elected": c.elected,
-                "descriptions": c.descriptions,
-            }
-            data.append(d)
+            data.append(c)
         return {
             "data": data,
             "message": "Data Read Successfully",

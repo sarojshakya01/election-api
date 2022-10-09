@@ -2,7 +2,7 @@ import datetime
 from sqlalchemy import ForeignKey
 from sqlalchemy import Table
 from sqlalchemy.schema import Column
-from sqlalchemy.types import String, Integer, Float, Boolean, JSON, Enum, DateTime
+from sqlalchemy.types import String, Integer, Float, Boolean, JSON, Enum, DateTime, Date
 from .database import Base
 
 
@@ -141,6 +141,15 @@ class Candidate(Base):
         nullable=False,
     )
     elected = Column(Boolean, default=False)
+    birthdate = Column(Date)
+    gender = Column(String(0))
+    ethnic_group = Column(String(50))
+    academic_qualification = Column(Enum('below_primary', 'primary',
+                                         'lower_secondary', 'secondary',
+                                         'higher_secondary', 'intermediate',
+                                         'bachelor', 'master', 'mphil', 'phd'),
+                                    default='below_primary',
+                                    nullable=False)
     descriptions = Column(String)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     created_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
