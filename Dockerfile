@@ -1,4 +1,4 @@
-FROM python:3.8.1-slim # Image from dockerhub
+FROM python:3.8.1-slim
 
 ENV PYTHONUNBUFFERED 1 
 
@@ -12,4 +12,4 @@ COPY . /app/
 
 RUN pip install -r requirements.txt
 
-CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "src.main:app"]
+CMD ["uvicorn", "--host", "0.0.0.0", "--port", "3334", "src.main:app"]
