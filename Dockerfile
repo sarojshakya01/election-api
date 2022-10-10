@@ -1,9 +1,15 @@
-FROM docker.javra.com/python-fast-api:v1
+FROM python:3.8.1-slim # Image from dockerhub
 
-WORKDIR /usr/src/api
+ENV PYTHONUNBUFFERED 1 
 
-COPY . /usr/src/api/
+EXPOSE 8000
 
-#RUN pip install -r /usr/src/api/requirements.txt
+WORKDIR /app
 
-EXPOSE 3334
+COPY ./requirements.txt .
+
+COPY . /app/
+
+RUN pip install -r requirements.txt
+
+CMD ["uvicorn", "--host", "0.0.0.0", "--port", "8000", "src.main:app"]
