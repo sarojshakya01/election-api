@@ -16,7 +16,7 @@ router = APIRouter(
 
 from core.models.database import engine
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 # @router.get("/{type}")
 # async def get_result(type: str):
