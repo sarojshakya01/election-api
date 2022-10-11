@@ -11,7 +11,7 @@ from core.settings import ALLOWED_ORIGINS, APP_HOST, APP_PORT
 # app = FastAPI(dependencies=[Depends(dependencies.get_query_token)])
 app = FastAPI()
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app.add_middleware(
     CORSMiddleware,
