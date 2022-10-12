@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS ds_election_candidates (
     party_code varchar(20) NOT NULL,
     vote int NOT NULL,
     elected boolean NOT NULL default false,
-    birthday date,
+    birthdate date,
     gender varchar(1),
     ethnic_group varchar(50),
     academic_qualification ENUM ('below_primary', 'primary', 'lower_secondary', 'secondary', 'higher_secondary', 'intermediate', 'bachelor', 'master', 'mphil', 'phd') NOT NULL default "below_primary",
