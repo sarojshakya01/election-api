@@ -108,6 +108,7 @@ CREATE TABLE IF NOT EXISTS ds_election_candidates (
     party_code varchar(20) NOT NULL,
     vote int NOT NULL,
     elected boolean NOT NULL default false,
+    age int,
     birthdate date,
     gender varchar(1),
     ethnic_group varchar(50),

@@ -46,7 +46,7 @@
       "districts": [
         { "id": "sindhuli", "name_en": "Sindhuli", "name_np": "सिन्धुली", "total_fregions": 2, "total_pregions": 4 },
         { "id": "ramechhap", "name_en": "Ramechhap", "name_np": "रामेछाप", "total_fregions": 1, "total_pregions": 2 },
-        { "id": "dolkha", "name_en": "Dolkha", "name_np": "दोलखा", "total_fregions": 1, "total_pregions": 2 },
+        { "id": "dolakha", "name_en": "Dolkha", "name_np": "दोलखा", "total_fregions": 1, "total_pregions": 2 },
         { "id": "sindhupalchowk", "name_en": "Sindhupalchowk", "name_np": "सिन्धुपाल्चोक", "total_fregions": 2, "total_pregions": 4 },
         { "id": "kavrepalanchowk", "name_en": "Kavrepalanchowk", "name_np": "काभ्रेपलान्चोक", "total_fregions": 2, "total_pregions": 4 },
         { "id": "lalitpur", "name_en": "Lalitpur", "name_np": "ललितपुर", "total_fregions": 3, "total_pregions": 6 },

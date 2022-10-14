@@ -141,6 +141,7 @@ class Candidate(Base):
         nullable=False,
     )
     elected = Column(Boolean, default=False)
+    age = Column(Integer)
     birthdate = Column(Date)
     gender = Column(String(0))
     ethnic_group = Column(String(50))
