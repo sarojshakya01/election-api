@@ -26,6 +26,8 @@ async def get_parties(db: Session = Depends(
                 "code": p.code,
                 "name_np": p.name_np,
                 "name_en": p.name_en,
+                "president_np": p.president_np,
+                "president_en": p.president_en,
                 "short_name_np": p.short_name_np,
                 "short_name_en": p.short_name_en,
                 "color": p.color,

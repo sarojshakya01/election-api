@@ -103,6 +103,8 @@ class Party(Base):
     code = Column(String(20), nullable=False)
     name_np = Column(String(100), nullable=False)
     name_en = Column(String(100), nullable=False)
+    president_np = Column(String(100))
+    president_en = Column(String(100))
     short_name_np = Column(String(100))
     short_name_en = Column(String(100))
     color = Column(String(10))
