@@ -90,6 +90,8 @@ CREATE TABLE IF NOT EXISTS ds_election_parties (
     code varchar(20) NOT NULL,
     name_np varchar(100) NOT NULL,
     name_en varchar(100) NOT NULL,
+    president_np varchar(100),
+    president_en varchar(100),
     short_name_np varchar(100),
     short_name_en varchar(100),
     color varchar(10),
