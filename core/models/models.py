@@ -166,6 +166,13 @@ class PRResult(Base):
     id = Column(Integer, primary_key=True, index=True)
     party_code = Column(String(20), nullable=False)
     vote = Column(Integer)
+    vote_p1 = Column(Integer)
+    vote_p2 = Column(Integer)
+    vote_p3 = Column(Integer)
+    vote_p4 = Column(Integer)
+    vote_p5 = Column(Integer)
+    vote_p6 = Column(Integer)
+    vote_p7 = Column(Integer)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
 

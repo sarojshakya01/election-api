@@ -92,7 +92,7 @@ async def fetch_results(type: str,
         pr_results = db.query(models.PRResult).all()
         data = []
         for p in pr_results:
-            d = {"id": p.id, "party": p.party_code, "vote": p.vote}
+            d = {"id": p.id, "party": p.party_code, "vote": p.vote, "vote_p1": p.vote_p1, "vote_p2": p.vote_p2, "vote_p3": p.vote_p3, "vote_p4": p.vote_p4, "vote_p5": p.vote_p5, "vote_p6": p.vote_p6, "vote_p7": p.vote_p7}
             data.append(d)
         return {
             "data": data,
